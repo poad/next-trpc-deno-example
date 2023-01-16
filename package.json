@@ -1,0 +1,21 @@
+{
+  "name": "next-trpc-deno-example",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "format-check": "rome format lambda",
+    "format": "rome format --write lambda",
+    "check": "rome check lambda",
+    "check-fix": "rome check --apply-suggested lambda",
+    "lint": "yarn format-check && yarn check",
+    "lint-fix": "yarn format && yarn check-fix"
+  },
+  "workspaces": [
+    "./cdk",
+    "./front"
+  ],
+  "resolutions": {
+    "json5": ">=2.2.3"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@next-trpc-deno-example/cdk",
+  "version": "0.1.0",
+  "bin": {
+    "api": "bin/api.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "format-check": "rome format bin lib",
+    "format": "rome format --write bin lib",
+    "check": "rome check bin lib",
+    "check-fix": "rome check --apply-suggested bin lib",
+    "lint": "yarn format-check && yarn check",
+    "lint-fix": "yarn format && yarn check-fix",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@swc/core": "*",
+    "@swc/helpers": "*",
+    "@types/node": "*",
+    "aws-cdk": "*",
+    "regenerator-runtime": "*",
+    "rome": "*",
+    "ts-node": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "*",
+    "constructs": "*",
+    "source-map-support": "*"
+  }
+}

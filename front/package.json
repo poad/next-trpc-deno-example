@@ -1,0 +1,39 @@
+{
+  "name": "@next-trpc-deno-example/front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "format-check": "rome format src",
+    "format": "rome format --write src",
+    "check": "rome check src",
+    "check-fix": "rome check --apply-suggested src",
+    "lint": "yarn format-check && yarn check",
+    "lint-fix": "yarn format && yarn check-fix"
+  },
+  "dependencies": {
+    "@next/font": "*",
+    "@tanstack/react-query": "*",
+    "@trpc/client": "*",
+    "@trpc/next": "*",
+    "@trpc/react": "*",
+    "@trpc/react-query": "*",
+    "@trpc/server": "*",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "next": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-query": "*",
+    "rome": "*",
+    "typescript": "*",
+    "zod": "*"
+  },
+  "devDependencies": {
+    "rome": "*"
+  }
+}

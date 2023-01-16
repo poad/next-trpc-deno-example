@@ -1,0 +1,93 @@
+name: Deploy
+ 
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:    
+    - main 
+
+  workflow_dispatch:
+
+env:
+  S3_BUCKET_NAME: next-trpc-deno-example
+  API_ENDPOINT_URL_PARAM: /next-trpc-deno-example/endpoint
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Use Node.js 18.x
+      uses: actions/setup-node@v3.6.0
+      with:
+        node-version: 18.x
+        check-latest: true
+        cache: yarn
+
+    - name: configure aws credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        role-to-assume: ${{ secrets.OIDC_IAM_ROLE }}
+        role-session-name: GitHubActions
+        aws-region: us-west-2
+
+    - name: Get yarn cache directory path
+      id: yarn-cache-dir-path
+      run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
+
+    - uses: actions/cache@v3
+      id: yarn-cache
+      with:
+        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
+
+    - name: Install cdk
+      run: |
+        yarn global add aws-cdk
+
+    - name: Deploy infra
+      working-directory: cdk
+      run: yarn install && cdk deploy -c s3bucketName=${{ env.S3_BUCKET_NAME }} -c apiEndpointUrlParamName=${{ env.API_ENDPOINT_URL_PARAM }}
+
+    - name: Get Parameters
+      uses: poad/get-aws-ssm-parameter@v1.0.0
+      id: get-param
+      with:
+        parameter-name: ${{ env.API_ENDPOINT_URL_PARAM }}
+        aws-region: us-west-2
+
+    - name: Build
+      working-directory: front
+      env:
+        NEXT_PUBLIC_API_URL: ${{ steps.get-param.outputs.value }}
+      run: yarn install && yarn build && yarn export
+  
+    - name: Upload to s3
+      working-directory: front/out
+      run: |
+        aws s3 sync . s3://${{ env.S3_BUCKET_NAME }} --delete
+
+  configure:
+    runs-on: ubuntu-latest
+
+    if: github.actor != 'dependabot[bot]'
+
+    steps:
+    - name: Pull request auto merge enabler
+      if: github.event_name == 'pull_request'
+      uses: poad/github-pull-request-auto-merge-enable-action@v1.0.2
+      with:
+        pull_request_id: ${{ github.event.pull_request.node_id }}
+        github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+        repository: ${{ github.event.repository.name }}
+        owner: ${{ github.repository_owner }}
+        merge_method: SQUASH
