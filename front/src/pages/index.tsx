@@ -117,9 +117,7 @@ export default function Home() {
             </p>
           </a>
         </div>
-        <div className={styles.grid}>
-          {process.env.NEXT_PUBLIC_API_URL}
-        </div>
+        <div className={styles.grid}>{process.env.NEXT_PUBLIC_API_URL}</div>
       </main>
     </>
   );

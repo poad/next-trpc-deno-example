@@ -19,7 +19,6 @@
     "@tanstack/react-query": "*",
     "@trpc/client": "*",
     "@trpc/next": "*",
-    "@trpc/react": "*",
     "@trpc/react-query": "*",
     "@trpc/server": "*",
     "@types/node": "*",
@@ -35,5 +34,11 @@
   },
   "devDependencies": {
     "rome": "*"
+  },
+  "resolutions": {
+    "@trpc/client": ">=10.9.0",
+    "@trpc/next": ">=10.9.0",
+    "@trpc/react-query": ">=10.9.0",
+    "@trpc/server": ">=10.9.0"
   }
 }
