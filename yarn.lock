@@ -637,9 +637,9 @@ postcss@8.4.14:
     source-map-js "^1.0.2"
 
 punycode@^2.1.1:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.2.0.tgz#2092cc57cd2582c38e4e7e8bb869dc8d3148bc74"
-  integrity sha512-LN6QV1IJ9ZhxWTNdktaPClrNfp8xdSAYS0Zk2ddX7XsXZAxckMHPCBcHRo0cTcEIgYPRiGEkmji3Idkh2yFtYw==
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.2.2.tgz#082313fe5efe0aa2d931d7aed15b99315c24e548"
+  integrity sha512-vKAcKbHEGA3cKbkNWwsA9MjHgIg4/X/xO/PnVQ/Pxt5eNC8/F726fGNlUlwwPej7NkmTg9OBWP4ovYvtdPtmXw==
 
 react-dom@*:
   version "18.2.0"
