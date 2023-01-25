@@ -3,9 +3,9 @@
 
 
 "@aws-cdk/asset-awscli-v1@^2.2.49":
-  version "2.2.49"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.49.tgz#af7618a3a39bf103f82d7aa396efa50e6ae79092"
-  integrity sha512-Qd5bdLlC/sphWQQPNn7etKXWCh+fij7DWxtkIwvhhZ+LM6UEApGLS8sBLBQcRO2ZQdEuNb+zeClUy+3DNojfeg==
+  version "2.2.51"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.51.tgz#53debb65197d2c4edb808623579cb6c00e50aff7"
+  integrity sha512-WcFw8LKQt6anPLgcj+NK2UhMdfIk+aLk2LQBNAPYyrynwfSQZjU3auuqsJGZuIwtSZ3Qs885L0GsDK2hunEFtQ==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -13,9 +13,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.38":
-  version "2.0.38"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.38.tgz#6765bef55f95220c52decb4adba8f75c1817b0f7"
-  integrity sha512-BBwAjORhuUkTGO3CxGS5Evcp5n20h9v06Sftn2R1DuSm8zIoUlPsNlI1HUk8XqYuoEI4aD7IKRQBLglv09ciJQ==
+  version "2.0.41"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.41.tgz#2b41cc780052caecf02d3bb9cbdbaeb691d3ac3b"
+  integrity sha512-POfpCysF+of+KhMdxNykYkXAKS81gdXXPqukA+j/IubLaCFqIctQLafgAZ5P5ec4c6pHwFjWGl1I6fJOpPSd7g==
 
 "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2":
   version "7.20.13"
@@ -339,9 +339,9 @@ at-least-node@^1.0.0:
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
 aws-cdk-lib@*:
-  version "2.61.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.61.1.tgz#5769521ba360318aa80de6e5e4d73cf808bf7e1b"
-  integrity sha512-+n6rXkIbGtu151XGN54c9+vObUqTKI50skPsZsPo6S0eKgj4ZsYVfS/W6lM4pgv839BwN66hyYAzOvreXAbKeA==
+  version "2.62.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.62.0.tgz#2c6d63e63a64579d8b3a46ca07a4168f1ee6a477"
+  integrity sha512-sk94AdHBJ7QhhE53VCg0QjW+yi85nhRdTBRxSbiWtXxw7f91azabDDE6yR3RnZ81QPW5nyE5zSj1RgRdLuSduw==
   dependencies:
     "@aws-cdk/asset-awscli-v1" "^2.2.49"
     "@aws-cdk/asset-kubectl-v20" "^2.1.1"
@@ -357,9 +357,9 @@ aws-cdk-lib@*:
     yaml "1.10.2"
 
 aws-cdk@*:
-  version "2.61.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.61.1.tgz#a70451a89ca3bdcb83a58c7c0e37e47845cb9cf4"
-  integrity sha512-bufvOB+I2T6YjVjT6D0j6xbi6CnX62j7TfHL905WLd5UQhPecwlL8wLe2whUOKqZj2wmGjaP7jAjIE1FFfh98w==
+  version "2.62.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.62.0.tgz#7c9be256a827a4a67e90d5c70e16418a5dfd65c3"
+  integrity sha512-CkUynyMxoOxDmMV3Y2nsoUGmXgDUQkAf72b7/+rxfRJvIdd8jQTqslei1EgZXgmoHiqYrCDcu7jYJipxWDtxMA==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -401,9 +401,9 @@ buffer-from@^1.0.0:
   integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 caniuse-lite@^1.0.30001406:
-  version "1.0.30001447"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001447.tgz#ef1f39ae38d839d7176713735a8e467a0a2523bd"
-  integrity sha512-bdKU1BQDPeEXe9A39xJnGtY0uRq/z5osrnXUw0TcK+EYno45Y+U7QU9HhHEyzvMDffpYadFXi3idnSNkcwLkTw==
+  version "1.0.30001448"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001448.tgz#ca7550b1587c92a392a2b377cd9c508b3b4395bf"
+  integrity sha512-tq2YI+MJnooG96XpbTRYkBxLxklZPOdLmNIOdIhvf7SNJan6u5vCKum8iT7ZfCt70m1GPkuC7P3TtX6UuhupuA==
 
 case@1.6.3:
   version "1.6.3"
@@ -421,9 +421,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 constructs@*:
-  version "10.1.229"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.229.tgz#67825b4a91ee7359d0942d2b09130d520f7e9b5f"
-  integrity sha512-YoZaXKIqjy0sIggwAt5IgH+HaWhdiDmSSj0HA/QFRV5ooGYxcdS4WfH/xqDISxKY4MRyxKwgBpXUiJ3v/7aJTg==
+  version "10.1.230"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.230.tgz#41f92acadd9f3b24f4c1be800b1b16bfa640a745"
+  integrity sha512-IthwvFD4pa8CtvNSx4mnfKi0kHEnQJ6tBebo+L6rTSx071H3XpMzV1WZS5PLh5B6czkfzaERV54ZzNKC8jUJxw==
 
 create-require@^1.1.0:
   version "1.1.1"
@@ -650,9 +650,9 @@ react-dom@*:
     scheduler "^0.23.0"
 
 react-query@*:
-  version "3.39.2"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.39.2.tgz#9224140f0296f01e9664b78ed6e4f69a0cc9216f"
-  integrity sha512-F6hYDKyNgDQfQOuR1Rsp3VRzJnWHx6aRnnIZHMNGGgbL3SBgpZTDg8MQwmxOgpCAoqZJA+JSNCydF1xGJqKOCA==
+  version "3.39.3"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.39.3.tgz#4cea7127c6c26bdea2de5fb63e51044330b03f35"
+  integrity sha512-nLfLz7GiohKTJDuT4us4X3h/8unOh+00MLb2yJoGTPjxKs2bc1iDhkNx2bd5MKklXnOD3NrVZ+J2UXujA5In4g==
   dependencies:
     "@babel/runtime" "^7.5.5"
     broadcast-channel "^3.4.1"
