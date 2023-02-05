@@ -20,7 +20,7 @@
     "@trpc/client": ">=10.9.0",
     "@trpc/next": ">=10.9.0",
     "@trpc/react-query": ">=10.9.0",
-    "@trpc/server": ">=10.9.0",
+    "@trpc/server": ">=10.10.0",
     "@types/node": "*",
     "@types/react": "*",
     "@types/react-dom": "*",
