@@ -4,12 +4,13 @@ import * as sam from 'aws-cdk-lib/aws-sam';
 import * as lambda from 'aws-cdk-lib/aws-lambda';
 import * as apigateway from 'aws-cdk-lib/aws-apigateway';
 
+import * as logs from 'aws-cdk-lib/aws-logs';
 import * as iam from 'aws-cdk-lib/aws-iam';
 import * as s3 from 'aws-cdk-lib/aws-s3';
-import * as crypto from 'crypto';
 import * as cloudfront from 'aws-cdk-lib/aws-cloudfront';
 import * as cfOrigins from 'aws-cdk-lib/aws-cloudfront-origins';
 import * as ssm from 'aws-cdk-lib/aws-ssm';
+import * as crypto from 'crypto';
 
 interface ApiStackProps extends cdk.StackProps {
   s3bucketName: string,
@@ -40,7 +41,15 @@ export class ApiStack extends cdk.Stack {
       denoRuntime.getAtt('Outputs.LayerArn').toString(),
     );
 
+    const functionName = 'next-trpc-deno-example-api-function';
+    new logs.LogGroup(this, 'LogGroup', {
+      logGroupName: `/aws/lambda/${functionName}`,
+      removalPolicy: cdk.RemovalPolicy.DESTROY,
+      retention: logs.RetentionDays.THREE_DAYS,
+    });
+
     const name = new lambda.Function(this, 'HelloHandler', {
+      functionName,
       runtime: lambda.Runtime.PROVIDED_AL2,
       code: lambda.Code.fromAsset('../lambda'),
       handler: 'index.handler',
