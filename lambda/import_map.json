@@ -1,6 +1,7 @@
 {
   "imports": {
     "~/": "./",
+    "@types/aws-lambda": "npm:@types/aws-lambda@8.10.110",
     "aws-lambda": "https://deno.land/x/lambda/mod.ts",
     "@trpc/server": "https://esm.sh/@trpc/server@10.9.0/",
     "@trpc/server/": "https://esm.sh/@trpc/server@10.9.0/",

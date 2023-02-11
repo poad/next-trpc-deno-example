@@ -2,10 +2,28 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
+import { useHello } from '../hooks/hello';
+import { useForm, SubmitHandler } from 'react-hook-form';
+import { useState } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 
+type Inputs = {
+  text: string;
+};
+
 export default function Home() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm<Inputs>();
+  const {greeting: hello, fetch} = useHello('world.');
+
+  const onSubmit: SubmitHandler<Inputs> = (data) => {
+    fetch(data.text);
+  };
+
   return (
     <>
       <Head>
@@ -117,7 +135,29 @@ export default function Home() {
             </p>
           </a>
         </div>
-        <div className={styles.grid}>{process.env.NEXT_PUBLIC_API_URL}</div>
+        <div className={styles.grid}>
+          <a
+            href={process.env.NEXT_PUBLIC_API_URL}
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {process.env.NEXT_PUBLIC_API_URL}
+          </a>
+        </div>
+        <div className={styles.grid}>
+          <p>{hello}</p>
+          <form onSubmit={handleSubmit(onSubmit)}>
+            <input
+              defaultValue="world."
+              {...register('text', { required: true })}
+            />
+            {errors.text && (
+              <span style={{ color: 'red' }}>This field is required</span>
+            )}
+            <input type="submit" />
+          </form>
+        </div>
       </main>
     </>
   );

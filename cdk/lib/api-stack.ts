@@ -48,17 +48,65 @@ export class ApiStack extends cdk.Stack {
       retention: logs.RetentionDays.THREE_DAYS,
     });
 
-    const name = new lambda.Function(this, 'HelloHandler', {
+    const fn = new lambda.Function(this, 'DenoHandler', {
       functionName,
       runtime: lambda.Runtime.PROVIDED_AL2,
       code: lambda.Code.fromAsset('../lambda'),
       handler: 'index.handler',
       layers: [layer],
+      environment: {
+        DENO_IMPORTMAP: 'import_map.json',
+        DENO_UNSTABLE: '--unstable',
+        DENO_PERMISSIONS: '--allow-net --allow-env --allow-read --allow-ffi',
+      },
+      retryAttempts: 0,
     });
 
     // API Gateway
     const api = new apigateway.LambdaRestApi(this, 'Endpoint', {
-      handler: name,
+      handler: fn,
+      deployOptions: {
+        stageName: 'default',
+      },
+      endpointConfiguration: {
+        types: [apigateway.EndpointType.REGIONAL],
+      },
+      defaultCorsPreflightOptions: {
+        allowOrigins: apigateway.Cors.ALL_ORIGINS,
+        allowMethods: apigateway.Cors.ALL_METHODS,
+        allowHeaders: apigateway.Cors.DEFAULT_HEADERS,
+        allowCredentials: true,
+        disableCache: true,
+        statusCode: 204,
+      },
+    });
+    
+    // eslint-disable-next-line no-new
+    new apigateway.GatewayResponse(this, 'UnauthorizedGatewayResponse', {
+      restApi: api,
+      type: apigateway.ResponseType.UNAUTHORIZED,
+      statusCode: '401',
+      responseHeaders: {
+        'Access-Control-Allow-Origin': "'*'",
+      },
+    });
+
+    // eslint-disable-next-line no-new
+    new apigateway.GatewayResponse(this, 'ClientErrorGatewayResponse', {
+      restApi: api,
+      type: apigateway.ResponseType.DEFAULT_4XX,
+      responseHeaders: {
+        'Access-Control-Allow-Origin': "'*'",
+      },
+    });
+
+    // eslint-disable-next-line no-new
+    new apigateway.GatewayResponse(this, 'ServerErrorGatewayResponse', {
+      restApi: api,
+      type: apigateway.ResponseType.DEFAULT_5XX,
+      responseHeaders: {
+        'Access-Control-Allow-Origin': "'*'",
+      },
     });
 
     new cdk.CfnOutput(this, 'EndpointOutput', {

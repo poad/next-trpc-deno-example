@@ -17,28 +17,23 @@
   "dependencies": {
     "@next/font": "*",
     "@tanstack/react-query": "*",
-    "@trpc/client": ">=10.9.0",
-    "@trpc/next": ">=10.9.0",
-    "@trpc/react-query": ">=10.9.0",
-    "@trpc/server": ">=10.9.0",
+    "@trpc/client": "*",
+    "@trpc/next": "*",
+    "@trpc/react": "*",
+    "@trpc/react-query": "*",
+    "@trpc/server": "*",
+    "@types/aws-lambda": "*",
     "@types/node": "*",
     "@types/react": "*",
     "@types/react-dom": "*",
+    "aws-lambda": "*",
     "next": "*",
     "react": "*",
     "react-dom": "*",
+    "react-hook-form": "*",
     "react-query": "*",
     "rome": "*",
     "typescript": "*",
     "zod": "*"
-  },
-  "devDependencies": {
-    "rome": "*"
-  },
-  "resolutions": {
-    "@trpc/client": ">=10.9.0",
-    "@trpc/next": ">=10.9.0",
-    "@trpc/react-query": ">=10.9.0",
-    "@trpc/server": ">=10.9.0"
   }
 }

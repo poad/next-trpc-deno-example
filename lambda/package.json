@@ -1,0 +1,15 @@
+{
+  "name": "@next-trpc-deno-example/lambda",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@trpc/server": "*",
+    "@types/aws-lambda": "*",
+    "aws-lambda": "*",
+    "typescript": "*",
+    "zod": "*"
+  }
+}
