@@ -29,7 +29,7 @@ export class ApiStack extends cdk.Stack {
       location: {
         applicationId:
           'arn:aws:serverlessrepo:us-east-1:390065572566:applications/deno',
-        semanticVersion: '1.29.2',
+        semanticVersion: '1.30.3',
       },
     });
 
