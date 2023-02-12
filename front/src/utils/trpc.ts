@@ -1,3 +1,3 @@
-import { createReactQueryHooks } from '@trpc/react';
+import { createTRPCReact } from '@trpc/react-query';
 import type { AppRouter } from '../../../lambda/index';
-export const trpc = createReactQueryHooks<AppRouter>();
+export const trpc = createTRPCReact<AppRouter>();

@@ -19,7 +19,6 @@
     "@tanstack/react-query": "*",
     "@trpc/client": "*",
     "@trpc/next": "*",
-    "@trpc/react": "*",
     "@trpc/react-query": "*",
     "@trpc/server": "*",
     "@types/aws-lambda": "*",
