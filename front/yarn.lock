@@ -135,26 +135,26 @@
     use-sync-external-store "^1.2.0"
 
 "@trpc/client@*":
-  version "10.11.0"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.11.0.tgz#1132ad1d07f9c71c3cf1b873c40b805d169923d5"
-  integrity sha512-GdSfyJxYI3Z9zyz2fEdJBGWLzqrpaonRtG1BtYLR5/63/eaW3/weA3JcEl2H3/CvqSNZfptNMZqLmaZyChTxdg==
+  version "10.11.1"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.11.1.tgz#e61f380eb751c111821c574a155df386a0c13a50"
+  integrity sha512-6aHY27YomzyUAlKhJE4jJulzDjc6vAKAKoWqAmoYbEEhApvyDrMo52bdYqqsukjxvA/L/uPhjOcPU5OsO+x+pA==
 
 "@trpc/next@*":
-  version "10.11.0"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.11.0.tgz#b5fa15e476734d3fb0a81ebc7247fedab647b359"
-  integrity sha512-BOKqJw7hq/QFMzWaMxK9nhov0+DYdBJJ9fkPWvQZNz1f4hiGsgl0BHygFg2pd2xWzjz1bgdHh//NJT9l7wbLyA==
+  version "10.11.1"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.11.1.tgz#f8179ea7cf2f3314087f873d1a0764f3e1d74f1f"
+  integrity sha512-lIXdYvD3pU7ryX5/F4jviaSKQTAHF+yUzApyp60o9QOjiYrMs1UL7sP7eBD1cDo45Ma3ffgzvl6o+6Y3JvsdAQ==
   dependencies:
     react-ssr-prepass "^1.5.0"
 
 "@trpc/react-query@*":
-  version "10.11.0"
-  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.11.0.tgz#445f1e2998e6514fdb019f58ded733b367775097"
-  integrity sha512-KsyjckHFa6uRC3nEZASJ5n44j090dQqDxdHgdxNDHS4Da7Hwq2fGgdfEAgERzGzp8RjH+qKpU/PD0/MYxHmNDQ==
+  version "10.11.1"
+  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.11.1.tgz#c7fd814f99db9babb34bf6ee1a6f46159a1cc00d"
+  integrity sha512-GqM0idzlQMi6upK/8IOa117UXckJDsRY+UHVkeawtkLi4hWvk82ic+zXRNw5MDYqKCC2CAlp8JIyrKfOuBdXqw==
 
 "@trpc/server@*":
-  version "10.11.0"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.11.0.tgz#5f391d9d09b0eda3fc55cf4f0b45934a6c5dd301"
-  integrity sha512-alV96Bjpa3bPgF+LZkJeQtrUJP/BM5EVpsB8S755RA3xtbudMw/lvLJFep8L/xTRw1HFZ7r4uRD31dKLOrMpaA==
+  version "10.11.1"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.11.1.tgz#afc966b97d4f16ae9e8d92044a4f8fd1326991e6"
+  integrity sha512-7FnvuaNsSl6HLloh0a297McS4yjhbqg/bw1h/XOAKduNPUQwXNmJf48X1PAsD8ODtO1Rrjz9TeynJD7uCEn0xQ==
 
 "@types/aws-lambda@*":
   version "8.10.110"
@@ -215,9 +215,9 @@ aws-lambda@*:
     watchpack "^2.0.0-beta.10"
 
 aws-sdk@^2.814.0:
-  version "2.1313.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1313.0.tgz#e6dad914670fb3f4d5cd95c58413fca5ea5c6c86"
-  integrity sha512-8GMdtV2Uch3HL2c6+P3lNZFTcg/fqq9L3EWYRLb6ljCZvWKTssjdkjSJFDyTReNgeiKV224YRPYQbKpOEz4flQ==
+  version "2.1314.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1314.0.tgz#bdc8fb360f5418e83d02c49225976b26bc385946"
+  integrity sha512-2jsfvgtOQ6kRflaicn50ndME4YoIaBhlus/dZCExtWNXeu8ePh+eAtflsYs6aqIiRPKhCBLaqClzahWm7hC0XA==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
