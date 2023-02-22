@@ -41,5 +41,7 @@ jobs:
 
     - name: Build (front)
       working-directory: front
+      env:
+        NEXT_PUBLIC_API_URL: http://localhost:3000
       run: yarn install && yarn build && yarn export
   
