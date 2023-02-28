@@ -258,9 +258,9 @@
     react-ssr-prepass "^1.5.0"
 
 "@trpc/react-query@*":
-  version "10.13.0"
-  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.13.0.tgz#ca5a1da0ea126976d7435775f2ba1846cb7fad59"
-  integrity sha512-y4jbojrDFdEl1KBejBoMWIofcUXDHQA8wf01eKMEDV7Jwc7lhq6R1dxYtKzeF+s5wqfnPWFOGZDmB3flzv07Dw==
+  version "10.13.2"
+  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.13.2.tgz#fe25cbf4e95754a0598266895b88bbac1b706d59"
+  integrity sha512-wLNDZKe5yQ2AYs/uoymxyRn5jNdYNpbOX17tHirnDDPKDRJojooGuL6uIDS1kvm70QJiNR/UKjKfwLDgZdGcqw==
 
 "@trpc/server@*":
   version "10.13.0"
