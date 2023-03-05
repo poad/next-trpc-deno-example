@@ -121,40 +121,40 @@
   dependencies:
     tslib "^2.4.0"
 
-"@tanstack/query-core@4.24.10":
-  version "4.24.10"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.24.10.tgz#758e1f5b2d7faf7316d299facd272a9f64c26299"
-  integrity sha512-2QywqXEAGBIUoTdgn1lAB4/C8QEqwXHj2jrCLeYTk2xVGtLiPEUD8jcMoeB2noclbiW2mMt4+Fq7fZStuz3wAQ==
+"@tanstack/query-core@4.26.0":
+  version "4.26.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.26.0.tgz#fc65c8c117e72baead3a82a1f272a4ec210c7650"
+  integrity sha512-9CRqXmCH82KZDKmezoGU4FOn1Oqbzlp2/zf71n+9nC58e7NSqCIjfSCMpqQWcu9YqUcUykxZEUunOyKHVc6BJA==
 
 "@tanstack/react-query@*":
-  version "4.24.10"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.24.10.tgz#2e1004bb1d1f55198961a21e875e2c65ec865130"
-  integrity sha512-FY1DixytOcNNCydPQXLxuKEV7VSST32CAuJ55BjhDNqASnMLZn+6c30yQBMrODjmWMNwzfjMZnq0Vw7C62Fwow==
+  version "4.26.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.26.0.tgz#379b3f7e068b0baf296cff706f4f9dd191c08f8e"
+  integrity sha512-Y5qKyr9AtreTHBPAsn+ulR02E7SyZXPQbwL2tkOcgUAGH2KHHcf7j7NHBhKpaAGB6/vPqkxGYW46epu29V0HqA==
   dependencies:
-    "@tanstack/query-core" "4.24.10"
+    "@tanstack/query-core" "4.26.0"
     use-sync-external-store "^1.2.0"
 
 "@trpc/client@*":
-  version "10.13.2"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.13.2.tgz#9303f6b47d587cbf5d3d1cccfa0032174dbe9fae"
-  integrity sha512-iEZOAYS/Ak5T6j2lrN2NCYYLb8YY9sbj4JJR9VgxDL8Cz1dRFpFZ2BA4VwNW6xoh0G+MRdSGvivTYdggbJ4BBg==
+  version "10.14.0"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.14.0.tgz#d8dbb310da45d268d977ea6afe09fcc0d244e531"
+  integrity sha512-fi7i+Av3ARGyWwlbuGD+ZeqF5HxomGG8hBB89dWHAc4WlBnDV6g0GQQgDaMKZqXbGt0sYeJucym6WPI6kO7HCQ==
 
 "@trpc/next@*":
-  version "10.13.2"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.13.2.tgz#7911ef8f4fae09651a969c0931001050eecdc8be"
-  integrity sha512-0GV9JanTY6PqWVd4W/OWIy8SI4qQD0F2ak4OgxLLothqB+ARzHpYkoZO+E3Y13/O+NV5RhWF6sIXXXX6doNghQ==
+  version "10.14.0"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.14.0.tgz#7342ae1809478ae6d961253846b4f7307a46fb04"
+  integrity sha512-uuoqVrXv/vdV7Jiy4kvwMsegDNmYltz14xHpfJPBr+zOq2uAeFzY6C8ISplyOqBfrBkp6gzKiD3k3sJbn/B04w==
   dependencies:
     react-ssr-prepass "^1.5.0"
 
 "@trpc/react-query@*":
-  version "10.13.2"
-  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.13.2.tgz#fe25cbf4e95754a0598266895b88bbac1b706d59"
-  integrity sha512-wLNDZKe5yQ2AYs/uoymxyRn5jNdYNpbOX17tHirnDDPKDRJojooGuL6uIDS1kvm70QJiNR/UKjKfwLDgZdGcqw==
+  version "10.14.0"
+  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.14.0.tgz#708d576674663aafbaf2509d2bff10ce2f2c8c46"
+  integrity sha512-EInZaeQzbs0YyKgAD8XfcjckMQw8is9mwtNVbmL2qHb8LPr54lvYB7V5s419BAYNYrSlw4lP4iOUZXA04vVkBA==
 
 "@trpc/server@*":
-  version "10.13.2"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.13.2.tgz#53d5deb3a998c65cc5829e6c83302999fe9a4ee8"
-  integrity sha512-/5L09a7EHxRy1D6RIFsIt5fMJ8bBspMp/eDPjAH7T033f9AMyYx0jWU7r5lswoBVSbdUDJgxKyLzwXIrVNVisg==
+  version "10.14.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.14.0.tgz#0f15ae44f793a6c687737a6ed9f8767226795b8b"
+  integrity sha512-hNnvwkSfqpIb89CH8pTV8VkldS9qjd3ZxaCgya7CeCk6QeDajT/bRX9bPmrkEe0UQtrbbPU5h47nuMrBsN2ghQ==
 
 "@types/aws-lambda@*":
   version "8.10.111"
@@ -162,9 +162,9 @@
   integrity sha512-8HR9UjIKmoemEzE2BviVtFkeenxfbizSu8raFjnT2VXxguZZ2JTlNww7INOH7IA0J/zRa3TjOftkYq6hVNkxDA==
 
 "@types/node@*":
-  version "18.14.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.4.tgz#0e64ec0b35a772e1e3d849f9a0ff61782d0cb647"
-  integrity sha512-VhCw7I7qO2X49+jaKcAUwi3rR+hbxT5VcYF493+Z5kMLI0DL568b7JI4IDJaxWFH0D/xwmGJNoXisyX+w7GH/g==
+  version "18.14.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.6.tgz#ae1973dd2b1eeb1825695bb11ebfb746d27e3e93"
+  integrity sha512-93+VvleD3mXwlLI/xASjw0FzKcwzl3OdTCzm1LaRfqgS21gfFtK3zDXM5Op9TeeMsJVOaJ2VRDpT9q4Y3d0AvA==
 
 "@types/prop-types@*":
   version "15.7.5"
@@ -215,9 +215,9 @@ aws-lambda@*:
     watchpack "^2.0.0-beta.10"
 
 aws-sdk@^2.814.0:
-  version "2.1327.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1327.0.tgz#14a5b1b919072b310b16d27e02d59d69e8e70ba1"
-  integrity sha512-adyoVv5MGGyq6Gm2k/W2h1dqmtMw+td5IW86vomKtMTT0S0eI2iYNABCk9G2EBqZOq8nx6RYuEyhascN7eaaig==
+  version "2.1328.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1328.0.tgz#c515d5aa2e7f389f897aa5fc7b9d98eb982f7153"
+  integrity sha512-ud8ieE+hGX/cWHkQ9kMxQw6w+onbv71PDrcPmP2j8cmYv5IPlM5Zh8/tpsmXApLYDmQMuZ3TtssiB1KmoSbzgA==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -285,9 +285,9 @@ call-bind@^1.0.2:
     get-intrinsic "^1.0.2"
 
 caniuse-lite@^1.0.30001406:
-  version "1.0.30001458"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001458.tgz#871e35866b4654a7d25eccca86864f411825540c"
-  integrity sha512-lQ1VlUUq5q9ro9X+5gOEyH7i3vm+AYVT1WDCVB69XOZ17KZRhnZ9J0Sqz7wTHQaLBJccNCHq8/Ww5LlOIZbB0w==
+  version "1.0.30001460"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001460.tgz#31d2e26f0a2309860ed3eff154e03890d9d851a7"
+  integrity sha512-Bud7abqjvEjipUkpLs4D7gR0l8hBYBHoa+tGtKJHvT2AYzLp1z7EmVkUT4ERpVUfca8S2HGIVs883D8pUH1ZzQ==
 
 client-only@0.0.1:
   version "0.0.1"
@@ -594,9 +594,9 @@ react-dom@*:
     scheduler "^0.23.0"
 
 react-hook-form@*:
-  version "7.43.3"
-  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.43.3.tgz#780af64ea1f3c5864626a377e302bfcc7750af6f"
-  integrity sha512-LV6Fixh+hirrl6dXbM78aB6n//82aKbsNbcofF3wc6nx1UJLu3Jj/gsg1E5C9iISnLX+du8VTUyBUz2aCy+H7w==
+  version "7.43.4"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.43.4.tgz#32c12cce916e2ba50178148a5ef5acffeaae2a3e"
+  integrity sha512-JZp05wvmuV8qr3NNDWwyhiQL05sh9E8x/2NoWtkdiyyiezmwOr5pKexlvbCEfBMa7ZYrvzk88G/uhLl47T9b7Q==
 
 react-query@*:
   version "3.39.3"
@@ -768,6 +768,6 @@ xmlbuilder@~9.0.1:
   integrity sha512-7YXTQc3P2l9+0rjaUbLwMKRhtmwg1M1eDf6nag7urC7pIPYLD9W/jmzQ4ptRSUbodw5S0jfoGTflLemQibSpeQ==
 
 zod@*:
-  version "3.20.6"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.20.6.tgz#2f2f08ff81291d47d99e86140fedb4e0db08361a"
-  integrity sha512-oyu0m54SGCtzh6EClBVqDDlAYRz4jrVtKwQ7ZnsEmMI9HnzuZFj8QFwAY1M5uniIYACdGvv0PBWPF2kO0aNofA==
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.21.0.tgz#9e3cbbf741071bfed9c000d2b4e64d4d97291d12"
+  integrity sha512-UYdykTcVxB6lfdyLzAqLyyYAlOcpoluECvjsdoaqfQmz9p+3LRaIqYcNiL/J2kFYp66fBM8wwBvIGVEjq7KtZw==
