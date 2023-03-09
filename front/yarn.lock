@@ -162,9 +162,9 @@
   integrity sha512-8HR9UjIKmoemEzE2BviVtFkeenxfbizSu8raFjnT2VXxguZZ2JTlNww7INOH7IA0J/zRa3TjOftkYq6hVNkxDA==
 
 "@types/node@*":
-  version "18.14.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.6.tgz#ae1973dd2b1eeb1825695bb11ebfb746d27e3e93"
-  integrity sha512-93+VvleD3mXwlLI/xASjw0FzKcwzl3OdTCzm1LaRfqgS21gfFtK3zDXM5Op9TeeMsJVOaJ2VRDpT9q4Y3d0AvA==
+  version "18.15.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.0.tgz#286a65e3fdffd691e170541e6ecb0410b16a38be"
+  integrity sha512-z6nr0TTEOBGkzLGmbypWOGnpSpSIBorEhC4L+4HeQ2iezKCi4f77kyslRwvHeNitymGQ+oFyIWGP96l/DPSV9w==
 
 "@types/prop-types@*":
   version "15.7.5"
@@ -215,9 +215,9 @@ aws-lambda@*:
     watchpack "^2.0.0-beta.10"
 
 aws-sdk@^2.814.0:
-  version "2.1331.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1331.0.tgz#77c6637272bbad2b87b9538b866d6ad114008f20"
-  integrity sha512-zrA1ymbt/D4GtieF7FuiZacv1fp9BBp9qnHUmy0YbPd9dwH5iwPIFkzdGTABbQ+F3a6b//AjtTpcF/JGVjCtTw==
+  version "2.1332.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1332.0.tgz#101482e088cc9f8dca1a2bdaab3fa091ba806f87"
+  integrity sha512-WuzpeiVv+80gPDv+foHTDap0FW0OkBax+wXf8frm1mub0aBOAGJ2rGnTaCbNVPOZ5zbMFSiEuODvlebMdWBnRg==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -285,9 +285,9 @@ call-bind@^1.0.2:
     get-intrinsic "^1.0.2"
 
 caniuse-lite@^1.0.30001406:
-  version "1.0.30001462"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001462.tgz#b2e801e37536d453731286857c8520d3dcee15fe"
-  integrity sha512-PDd20WuOBPiasZ7KbFnmQRyuLE7cFXW2PVd7dmALzbkUXEP46upAuCDm9eY9vho8fgNMGmbAX92QBZHzcnWIqw==
+  version "1.0.30001464"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001464.tgz#888922718df48ce5e33dcfe1a2af7d42676c5eb7"
+  integrity sha512-oww27MtUmusatpRpCGSOneQk2/l5czXANDSFvsc7VuOQ86s3ANhZetpwXNf1zY/zdfP63Xvjz325DAdAoES13g==
 
 client-only@0.0.1:
   version "0.0.1"
