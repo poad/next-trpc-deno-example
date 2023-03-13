@@ -135,26 +135,26 @@
     use-sync-external-store "^1.2.0"
 
 "@trpc/client@*":
-  version "10.15.0"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.15.0.tgz#cf94fe35352780bb9dafe762a17335ab11660817"
-  integrity sha512-Tmm3N7jibEOZTsvHRU+tWCVvUf8F9/UcKOVTGAWuyasBpnjOZ7ClZ81F9wo4cg9+9tUxUhuJns+E96/HtATpyQ==
+  version "10.16.0"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.16.0.tgz#665fc51f849808090ed21b3467190b0d1e7089d9"
+  integrity sha512-Hxxi3mOcUyszosj6xpPDIIBV1TOhXKpZ191BW/60r1lXBAfNrDUWHOTol1Dfu+hpcx4bpj3WRyob5cf+6KeCDA==
 
 "@trpc/next@*":
-  version "10.15.0"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.15.0.tgz#8e14f17ffd76e642ab539bf6d4011de60c07113f"
-  integrity sha512-jekFhfvqvw5+KP+ya3zK0nXlNtOTBjlhAynlIJqTOoTM08rx1s24x3S35seaxKmxVSdREClmpNgoZmaHWH6rlw==
+  version "10.16.0"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.16.0.tgz#d02d2fb863ed8c2e2124d27d5e5072cd154298dc"
+  integrity sha512-2AohDydvvLk2IjnQ1hTnT8cVmLItYf6cFRwJVYnyi35y2DVKXLiIWuKSTzc9xzR5enYFUQJZivXaWx/i0jjcfQ==
   dependencies:
     react-ssr-prepass "^1.5.0"
 
 "@trpc/react-query@*":
-  version "10.15.0"
-  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.15.0.tgz#1c46be0aaf0f69a31ae3c328c2fc51dbca042847"
-  integrity sha512-MD8JBoviAioI3ssOzN+Uxd8uGvhgfqvtbmkdhYQkQJOBlQw+4A55BfeXykeRmIHOs6X83iiqZVVerximEzTADQ==
+  version "10.16.0"
+  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.16.0.tgz#16056e30ede349b8fb3063ee3c7bd7565ff2b96a"
+  integrity sha512-LHLkyYgmmmaqMK33Hil7+DxCRG+8cRl2hF/rY8DQneh7e/u4cBA/wbun5vs8BAJxmYcHsQNPlq5aBy80CyU78g==
 
 "@trpc/server@*":
-  version "10.15.0"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.15.0.tgz#3f7f812d90efb9fc157fdb050595ad463ccb4764"
-  integrity sha512-Kf+wTU5iZjjjEzqZDy+o5wc4nEZKvE0yWdF9qZa72xLu6eTJ0BS2hnwQZeCZ2pIbmQb8/6lFr5igHiY4/dy0mA==
+  version "10.16.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.16.0.tgz#eda8f443852c6fb3791294ac936e49659346b221"
+  integrity sha512-lCUq7AB7vcgrNbaN+xP/AN62OjKDgrRyG7fTDPv5K633ut7KJ3m57qs60VRBOgp9vow6elAg51pKFFDtPHbTRA==
 
 "@types/aws-lambda@*":
   version "8.10.111"
@@ -162,9 +162,9 @@
   integrity sha512-8HR9UjIKmoemEzE2BviVtFkeenxfbizSu8raFjnT2VXxguZZ2JTlNww7INOH7IA0J/zRa3TjOftkYq6hVNkxDA==
 
 "@types/node@*":
-  version "18.15.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.0.tgz#286a65e3fdffd691e170541e6ecb0410b16a38be"
-  integrity sha512-z6nr0TTEOBGkzLGmbypWOGnpSpSIBorEhC4L+4HeQ2iezKCi4f77kyslRwvHeNitymGQ+oFyIWGP96l/DPSV9w==
+  version "18.15.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.2.tgz#0407ceb15647f186318101546d5ae40725b73810"
+  integrity sha512-sDPHm2wfx2QhrMDK0pOt2J4KLJMAcerqWNvnED0itPRJWvI+bK+uNHzcH1dFsBlf7G3u8tqXmRF3wkvL9yUwMw==
 
 "@types/prop-types@*":
   version "15.7.5"
@@ -215,9 +215,9 @@ aws-lambda@*:
     watchpack "^2.0.0-beta.10"
 
 aws-sdk@^2.814.0:
-  version "2.1333.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1333.0.tgz#02ecd59499e364584efb08196d6147873d6328a9"
-  integrity sha512-MvOuleNeRryJtkCGXGEWDHPqqgxuqdi4/hGzJEpn9tnjsW9LNK8UgFPpYzUZ24ZO/3S+jiUh8DMMrL5nVGnagg==
+  version "2.1334.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1334.0.tgz#011e0b8c54d26f559e4608c91b9be81701d6c505"
+  integrity sha512-nJuV8QYY39sI1Q7u7Dsd2XcxDkUG/Z5oGosc41LrTBAHQjPib3rXV06zaL9jS+4yQ9Ko7qon2f/0ZVVuUPJjDA==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -285,9 +285,9 @@ call-bind@^1.0.2:
     get-intrinsic "^1.0.2"
 
 caniuse-lite@^1.0.30001406:
-  version "1.0.30001464"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001464.tgz#888922718df48ce5e33dcfe1a2af7d42676c5eb7"
-  integrity sha512-oww27MtUmusatpRpCGSOneQk2/l5czXANDSFvsc7VuOQ86s3ANhZetpwXNf1zY/zdfP63Xvjz325DAdAoES13g==
+  version "1.0.30001465"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001465.tgz#c1b715bbb4ff6fdc20a4827e0afe9f4374fca217"
+  integrity sha512-HvjgL3MYAJjceTDCcjRnQGjwUz/5qec9n7JPOzUursUoOTIsYCSDOb1l7RsnZE8mjbxG78zVRCKfrBXyvChBag==
 
 client-only@0.0.1:
   version "0.0.1"
