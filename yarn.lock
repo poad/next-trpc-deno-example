@@ -3,9 +3,9 @@
 
 
 "@aws-cdk/asset-awscli-v1@^2.2.97":
-  version "2.2.110"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.110.tgz#7681bae3a779548dcabbe8c4b67bcd286d00fce6"
-  integrity sha512-Xc5KkOrKu1bHwUC1L9ouGGKCF6zHNVLKyYsKFxNrQZh3V3IlADig2JC7S6o9lGfDkrYJBHAl2urJf3/7Ycf/IA==
+  version "2.2.112"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.112.tgz#5b12430c4e0878a55dd3e9275cc786ae0d4ad288"
+  integrity sha512-BK1JZNwtjmizzoMzLEf9XG2Lzl6Esl0HLw8jXB3ZxJxEEoBmzJ0pJ8xojylXTEjVxBgE4cTQTpgXfkj7jRx6mg==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -13,9 +13,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.77":
-  version "2.0.89"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.89.tgz#41e40baf07847706224295b448683d253da80742"
-  integrity sha512-d/NCZrQBqsJ93XkBStpzXdf20AQVruWmXysAhoZHgpLod0r2c1OlIryqUAHxHdPDfJeS3j/9TpobeP2fzE6WRg==
+  version "2.0.90"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.90.tgz#7bd8e651e365e7bf976dae4838b6a2340888fdc7"
+  integrity sha512-3oGMm9tNKMAN6RDfzpSJ3v3q1TSSeSEliVZ4q7QKocrkQyVmL8oxr2iEtl+tGHTJhPUWGBP4yLLNVMX6IF2h4Q==
 
 "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2":
   version "7.21.0"
@@ -238,34 +238,34 @@
   integrity sha512-sm+QncWaPmM73IPwFlmWSKPqjdTXZeFf/7aEmWh00z7yl2FjqophPt0dE1EHW9P1giMC5rMviv7OUbSDmWzXXA==
 
 "@tanstack/react-query@*":
-  version "4.27.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.27.0.tgz#624da94e2e44e08f846f8caf91320bf93bd72ac7"
-  integrity sha512-9S49LTFenWbxVHx0iR6qUXP+MKL5kwz/mV9pzfNXvdIM1R0vT+hiecCCL+ox/tD2glAQ51JHHMffQaRuH7wYRA==
+  version "4.28.0"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.28.0.tgz#01cb9969b15cbcbd5dcfcd4b264dc18ef0a35f86"
+  integrity sha512-8cGBV5300RHlvYdS4ea+G1JcZIt5CIuprXYFnsWggkmGoC0b5JaqG0fIX3qwDL9PTNkKvG76NGThIWbpXivMrQ==
   dependencies:
     "@tanstack/query-core" "4.27.0"
     use-sync-external-store "^1.2.0"
 
 "@trpc/client@*":
-  version "10.16.0"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.16.0.tgz#665fc51f849808090ed21b3467190b0d1e7089d9"
-  integrity sha512-Hxxi3mOcUyszosj6xpPDIIBV1TOhXKpZ191BW/60r1lXBAfNrDUWHOTol1Dfu+hpcx4bpj3WRyob5cf+6KeCDA==
+  version "10.17.0"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.17.0.tgz#aa766f59412b35d326d76e6e83819757dd65470a"
+  integrity sha512-HkOIgOOJ7LUmDv/rOKTbmO1x9xJuvR0uzTPOiUG8qD7zvxhm+r7so5/HQq32Ne9Tx7lY4vi//mhz9AWNdAjdaQ==
 
 "@trpc/next@*":
-  version "10.16.0"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.16.0.tgz#d02d2fb863ed8c2e2124d27d5e5072cd154298dc"
-  integrity sha512-2AohDydvvLk2IjnQ1hTnT8cVmLItYf6cFRwJVYnyi35y2DVKXLiIWuKSTzc9xzR5enYFUQJZivXaWx/i0jjcfQ==
+  version "10.17.0"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.17.0.tgz#1f61158104e7f96d9814e7fa1f721565866bf3a9"
+  integrity sha512-48880THMnlUliTxyuDeZDUCkwHQx3oyDA3U3hFpNE5qnefTXE9MvnlfownmfKf0n0Vd+wrpt9A2mDFOyGeOQAA==
   dependencies:
     react-ssr-prepass "^1.5.0"
 
 "@trpc/react-query@*":
-  version "10.16.0"
-  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.16.0.tgz#16056e30ede349b8fb3063ee3c7bd7565ff2b96a"
-  integrity sha512-LHLkyYgmmmaqMK33Hil7+DxCRG+8cRl2hF/rY8DQneh7e/u4cBA/wbun5vs8BAJxmYcHsQNPlq5aBy80CyU78g==
+  version "10.17.0"
+  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.17.0.tgz#c6fd7fc24b820e23828424b419e386ab018812fa"
+  integrity sha512-kwlS+Mio4idRiYT4EVPO2jV8ZHovyxqySoegntKfTvY5QoOA1VSU0kgcelkVizZHBkb75V0tuCQ0r4KNs5AHBw==
 
 "@trpc/server@*":
-  version "10.16.0"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.16.0.tgz#eda8f443852c6fb3791294ac936e49659346b221"
-  integrity sha512-lCUq7AB7vcgrNbaN+xP/AN62OjKDgrRyG7fTDPv5K633ut7KJ3m57qs60VRBOgp9vow6elAg51pKFFDtPHbTRA==
+  version "10.17.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.17.0.tgz#7d202ff9c76ebba0f7fba440d9a3aface1df810b"
+  integrity sha512-ZY8jUsJpyqyu80k7TbCcdAx7NsoQAnPK27lGS4/9R42yMKrt7KJdS0Ka2KF1KRRkr112qxTskVqUufVpRVLq7Q==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
@@ -293,9 +293,9 @@
   integrity sha512-M8WpEGfC9iQ6V2Ccq6nGIXoQgeVc6z0Ngk8yCOL5V/TYIxshvb0MWQYLFFTZDesL0zmsoBc4OBjG9DB/4rei6w==
 
 "@types/node@*":
-  version "18.15.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.3.tgz#f0b991c32cfc6a4e7f3399d6cb4b8cf9a0315014"
-  integrity sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==
+  version "18.15.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.5.tgz#3af577099a99c61479149b716183e70b5239324a"
+  integrity sha512-Ark2WDjjZO7GmvsyFFf81MXuGTA/d6oP38anyxWOL6EREyBKAxKoFHwBhaZxCfLRLpO8JgVXwqOwSwa7jRcjew==
 
 "@types/prop-types@*":
   version "15.7.5"
@@ -391,9 +391,9 @@ aws-lambda@*:
     watchpack "^2.0.0-beta.10"
 
 aws-sdk@^2.814.0:
-  version "2.1338.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1338.0.tgz#e9272a0563940ceebed5910d271c944f31dbae00"
-  integrity sha512-apxv53ABuvi87UQHAUqRrJOaGNMiPXAe6bizzJhOnsaNqasg2KjDDit7QSCi6HlLNG44n1ApIvMtR/k+NnxU4Q==
+  version "2.1339.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1339.0.tgz#3de9aeced95a072abcd35c16ff560ec20cf8aa2d"
+  integrity sha512-3TS2bmjfsi0ezxGKPKsGl9V40tLiU0PxPg/NH8VL8npDPoQvZxwmHsiOS5DugNXqtSr/lUSWgYXXJ2oDbtmDXg==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -491,9 +491,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 constructs@*:
-  version "10.1.282"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.282.tgz#5d35988a89570ae682d8ec26eeb56a2f0ff46871"
-  integrity sha512-AZLN2ynx2WEvn2oT1sUK+ZQb957k7vXk+oiFyyOltASIFYPaaDIhmI8Paqg5X8t5tsx02qT2PqL6tNELd+leJw==
+  version "10.1.283"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.283.tgz#5b7c5de15f191186120c961bb76b51ddf8742b97"
+  integrity sha512-Fz0c7B8zCGXKBdzua2903YGs+g0qQ4hCRcDaXmVGBnIusjB53Q531o2comJUCHdXnsg+57mFMZwDxSTISHP+LA==
 
 create-require@^1.1.0:
   version "1.1.1"
