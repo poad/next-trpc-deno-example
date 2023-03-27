@@ -3,9 +3,9 @@
 
 
 "@aws-cdk/asset-awscli-v1@^2.2.97":
-  version "2.2.118"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.118.tgz#041cd7abf72e767839f9ac8637bc2bfb85605691"
-  integrity sha512-vxEs6sclGwVFvy06p0BJaLOBTNlx30TGTT0pXml4rIJQ5Sjt1ip/YggiErIm+e1+9VN8IfZbGnNaMFMFPhKglw==
+  version "2.2.120"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.120.tgz#bca5eb4f627ab64839c311878ef700f71692d40d"
+  integrity sha512-g/8fHiO2/ydC29Cu5xShgmcp1UfY6yRxJPq+QDsQ80l16emsgelpxgvUyoXE3qNgHG+WVJvixZZhB3m55zEN4w==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -13,9 +13,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.77":
-  version "2.0.96"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.96.tgz#68d5ad170f7f5cc1ad7668491ec70970c944c502"
-  integrity sha512-hnw+foV2A+ohY+IATYfGuXg0EhY7KBE5kuseek0dBurqGrWmKT2FzVdkcQAsYmAx2ZKYuQ80eTTPKpV12Hg9vA==
+  version "2.0.97"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.97.tgz#72fdcef944ff90b1e0610e59a5a08c0feecc1f79"
+  integrity sha512-udU6ilEIR5+ys+PYl8IJEeTzzABEK67OW27f0hanD58RTJzx3sa28faPJUhwAjSOdgZMN4c4AaHZF2u28kHo/g==
 
 "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2":
   version "7.21.0"
@@ -310,9 +310,9 @@
     "@types/react" "*"
 
 "@types/react@*":
-  version "18.0.29"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.29.tgz#4cead505172c0020c5b51940199e31fc6ff2f63a"
-  integrity sha512-wXHktgUABxplw1+UnljseDq4+uztQyp2tlWZRIxHlpchsCFqiYkvaDS8JR7eKOQm8wziTH/el5qL7D6gYNkYcw==
+  version "18.0.30"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.30.tgz#83944e679fc7aeab3f042b76d63c4d755b56b7c4"
+  integrity sha512-AnME2cHDH11Pxt/yYX6r0w448BfTwQOLEhQEjCdwB7QskEI7EKtxhGUsExTQe/MsY3D9D5rMtu62WRocw9A8FA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -391,9 +391,9 @@ aws-lambda@*:
     watchpack "^2.0.0-beta.10"
 
 aws-sdk@^2.814.0:
-  version "2.1343.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1343.0.tgz#c1aea1873bad4c588b551c18777a007144d8fcdc"
-  integrity sha512-p9+bgEeD2HxFMLAl5IyqvxfmFzuzSwyvoKfEaGL3+0Vndztv7TvCbHfKNH6olY9DjyLrq9f34fJ98owGD8sHnQ==
+  version "2.1344.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1344.0.tgz#61b901cb8a7f011d407b320860ed2117eb5afe5a"
+  integrity sha512-dOYkxyw5wSeX+UqGhVE4wXbLmw1z4t65jAYz4PdqXASbhB1YS5gFgTYnUg20psbzPnYV83KvUToWw5Sbc8tWcQ==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
