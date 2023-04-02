@@ -13,9 +13,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.77":
-  version "2.0.100"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.100.tgz#629d3c2c26f89f929da9a76fb9d693a4035ccb09"
-  integrity sha512-GIPxOsN/Fgr9cEHjnlGz3B2pOozuT6DOXD6joF6gNFdlmPAV2upYCUpRCcUYaX/IV/iz/C7kLsbGO+I3VUPmnw==
+  version "2.0.103"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.103.tgz#7fbfa16d484c0ce7392f07e8aa872e50990745c5"
+  integrity sha512-7jzfEGe3I7kudx/OrHRQOZ+1lGh1MwyG+uC5IiwiaC9aMWbl2D3wF2o7nGsIeXcn5+Wc77/MCPL0qbIY2Ftr3w==
 
 "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2":
   version "7.21.0"
