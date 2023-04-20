@@ -13,9 +13,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.77":
-  version "2.0.120"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.120.tgz#7891f710f824b3f4eaa44b153ed335e0fc5d7095"
-  integrity sha512-b8KA43ltvgoj6ybQuuTs6VSoP0edq6ZHDQsBbxw0wsNFMC/5VpmnbnfBrhjMLXbcJH6nwZJhMtBCWFswpPKDAw==
+  version "2.0.122"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.122.tgz#ada0f9ad60357de0f8e28b4457b4ceee2baf5091"
+  integrity sha512-0xGLWjNIZsmkCAx8gwTbZQh8zzZ40tmAZQccG3Ctu8EB9+wWXBvfszqn0AcUXAhyvAyugzrJi9nG+tU3ACqzZQ==
 
 "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2":
   version "7.21.0"
@@ -233,26 +233,26 @@
     use-sync-external-store "^1.2.0"
 
 "@trpc/client@*":
-  version "10.20.0"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.20.0.tgz#92519c772eb3804acd0ddd313b65e5ad8f5d1619"
-  integrity sha512-DER42PjIURSl1fwVnBzMWMgo4oxbyA72nIVpOliIpNArDYkZkr7kMfXmap2J7gwaKJNMC/V5xhYc06zG9r/8pQ==
+  version "10.21.0"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.21.0.tgz#2d3e29a73a3b1bec0ef5d129473240c3b92d9e53"
+  integrity sha512-cEseC2oqhbgWpu0+KARPjb36GkdHaDPs1Yql3cinMY4CXxi0QSChg8sVDgO+fFdII6QiFtNWImK5QgnJD2Hprg==
 
 "@trpc/next@*":
-  version "10.20.0"
-  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.20.0.tgz#3452f4ec9f4a13127cc88af8206ecd98c284ce65"
-  integrity sha512-qtLZeaAcLU8N8lvwB9h7i/HlIKbdP5Px6oZf8HQ29a+vBaY8NXTG7Q1BkvHCc/E304xH2KWsgQ6s1sNwSZ5+UQ==
+  version "10.21.0"
+  resolved "https://registry.yarnpkg.com/@trpc/next/-/next-10.21.0.tgz#a9fc0dcf8cc7155922566a9310852d4f29d1d880"
+  integrity sha512-Qu1K+tcBTKym520dK4/HsIiteCQXj0tCbw1z86pGESgtw0pbSFF4f30gwV7D3GxBLYvC2HM7utXASwmDoheCBg==
   dependencies:
     react-ssr-prepass "^1.5.0"
 
 "@trpc/react-query@*":
-  version "10.20.0"
-  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.20.0.tgz#0270b0bba0ec7fadb0a74e2f870a4666a0c083fc"
-  integrity sha512-8Qkmhe0fwKJIdONHu6wHd4onNbt10MO422mqCindV8AK2ommRDFERaz6sqdPevHVu7ggLEDMJ+aWRqR2VX+yYw==
+  version "10.21.0"
+  resolved "https://registry.yarnpkg.com/@trpc/react-query/-/react-query-10.21.0.tgz#987681d77e4f30653202db10bdc8ad21526fe5b9"
+  integrity sha512-oJ3EQSiREpLelvGey9sMVce1ZyTM7unvxDCyX/z1Q7H+R3PFZVbEFjzYVoDlqaMAt0Bs2J7fQSlG0dpOHJlNxw==
 
 "@trpc/server@*":
-  version "10.20.0"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.20.0.tgz#40e5083ddef474288b61f9e6678c22b2b9b2581c"
-  integrity sha512-pbrdgw2mO8lWygyZjGLbOq/EoWFWEJvLaxp8JmGsivMIh/IZR5mksPJdywAGQ4TBrbcqssKhuoJ/8OE9mhaveg==
+  version "10.21.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.21.0.tgz#1dcd616e692c034784f676ba59cacaece47fca30"
+  integrity sha512-NKgF5pcD3kPxtWncmhAPWqC/K8/DRv1voXw/KLcc63U/zEiUCZZFFFnPErQkJqtYghacUVPL2HPIRvNRlluyLA==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
@@ -370,9 +370,9 @@ available-typed-arrays@^1.0.5:
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
 aws-cdk-lib@*:
-  version "2.75.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.75.1.tgz#e3bc4b1860178c61e2c3df5a43573c36f460f48a"
-  integrity sha512-rVG9PYqpe7rR1POswmbTJ2aw60zrNPzWwIYbN0VTp6smc4axG2JHlp9ep1nyfR1rdPd+uzl7d3W1765QbHchPw==
+  version "2.76.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.76.0.tgz#4662fcb7591ed90ebb39dc68bfefc1bbb46bb5f4"
+  integrity sha512-EYWdHh/qJA7v+jD6SeW+BOEChI7oe6IYPHHap+SoJMUrKBVSDKnIGJ8wTP5eV6F27aYaUQiA7rWTKcCWoda8ag==
   dependencies:
     "@aws-cdk/asset-awscli-v1" "^2.2.97"
     "@aws-cdk/asset-kubectl-v20" "^2.1.1"
@@ -389,9 +389,9 @@ aws-cdk-lib@*:
     yaml "1.10.2"
 
 aws-cdk@*:
-  version "2.75.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.75.1.tgz#71193f6c4b381ce25bee2e4419675026483e1aaf"
-  integrity sha512-LB0pvt3FwHEvljBIczNwvVCrknZ8u/s7CFNaCC6AmpFajwy8BZrbcRL8iKxHKwaWvPULY1bzvsqhHAoE34h4Ow==
+  version "2.76.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.76.0.tgz#5c1a499e2002551f16ff115df16fa8570d747d84"
+  integrity sha512-y6VHtqUpYenn6mGIBFbcGGXIoXfKA3o0eGL/eeD/gUJ9TcPrgMLQM1NxSMb5JVsOk5BPPXzGmvB0gBu40utGqg==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -406,9 +406,9 @@ aws-lambda@*:
     watchpack "^2.0.0-beta.10"
 
 aws-sdk@^2.814.0:
-  version "2.1361.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1361.0.tgz#1061887c2975905d69e4178d2b21ea84de58a03d"
-  integrity sha512-0tuFnHCzK2YExbYkXR2sFSMW415GwlPtghBtC1VQto0aJxcSA/Ez0Bqya4R5dY8htbPr5Y2OKCG5QD3hAy+eew==
+  version "2.1362.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1362.0.tgz#e7a65b5db9dfa40dd5b968a456ac7ad903c721bc"
+  integrity sha512-Cqv0khSv13xBGKOdErArCdyT0/W3cxQ3Xr9Oa0Lwt43xb24gbad+9lvtNMkbQGQusX3PSk95o+gcAaWreYAlYg==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
