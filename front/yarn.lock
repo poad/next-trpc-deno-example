@@ -101,17 +101,17 @@
   dependencies:
     tslib "^2.4.0"
 
-"@tanstack/query-core@4.29.1":
-  version "4.29.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.29.1.tgz#62a4bc120b85e6bb3c6c0aca96346e643e232248"
-  integrity sha512-vkPewLEG8ua0efo3SsVT0BcBtkq5RZX8oPhDAyKL+k/rdOYSQTEocfGEXSaBwIwsXeOGBUpfKqI+UmHvNqdWXg==
+"@tanstack/query-core@4.29.5":
+  version "4.29.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.29.5.tgz#a0273e88bf2fc102c4c893dc7c034127b67fd5d9"
+  integrity sha512-xXIiyQ/4r9KfaJ3k6kejqcaqFXXBTzN2aOJ5H1J6aTJE9hl/nbgAdfF6oiIu0CD5xowejJEJ6bBg8TO7BN4NuQ==
 
 "@tanstack/react-query@*":
-  version "4.29.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.29.3.tgz#037205560784ed4a5e3fd605a2143e325b6189fa"
-  integrity sha512-FPQrMu7PbCgBcVzoRJm7WmQnAFv+LUgZM9KBZ7Vk/+yERH2BDLvQRuAgczQd5Tb1s3HbOktECRDaOkUxdyBAjw==
+  version "4.29.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.29.5.tgz#3890741291f9f925933243d78bd74dfc59d64208"
+  integrity sha512-F87cibC3s3eG0Q90g2O+hqntpCrudKFnR8P24qkH9uccEhXErnJxBC/AAI4cJRV2bfMO8IeGZQYf3WyYgmSg0w==
   dependencies:
-    "@tanstack/query-core" "4.29.1"
+    "@tanstack/query-core" "4.29.5"
     use-sync-external-store "^1.2.0"
 
 "@trpc/client@*":
@@ -195,9 +195,9 @@ aws-lambda@*:
     watchpack "^2.0.0-beta.10"
 
 aws-sdk@^2.814.0:
-  version "2.1363.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1363.0.tgz#30c3b7fe999ee2ba1103a533ea27e1b0f5708e1f"
-  integrity sha512-M2MZZXehgi/EMQv5GlzRkn3TlhoOYHg2cYdSAAqhjv67WaEG50MjaQy5vRvfN1i8XvB24aJFJ5pCrx69TaCaIg==
+  version "2.1364.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1364.0.tgz#91392b071c412c71531636060dafe182f5fcf7f5"
+  integrity sha512-PFoq9Rnu0DVi07wZ/SjKlrJDwso8AxE5q/ufLdNtINZPaSkB92OqKYVdlfQ4srsH2ala2NCrg8gFX98SCmqW3w==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"

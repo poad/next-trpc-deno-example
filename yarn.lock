@@ -3,9 +3,9 @@
 
 
 "@aws-cdk/asset-awscli-v1@^2.2.97":
-  version "2.2.148"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.148.tgz#3a7ad684fb543ca599a4a8c91de3df8e43d9a86c"
-  integrity sha512-LoMGTyxsDSFmaXErgymZdaaMegrGwn5ilXXvTkXFuwGn1ilqSOyBIVhT5wIDGkw4hbElcUJFiEtptFwb+UFgFw==
+  version "2.2.150"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.150.tgz#0c692c1a2b04ebaa30c148173aa79ed213c5da10"
+  integrity sha512-SET6eTNCzbAsIF12VciM2UuYTD4z4Bb57Rd9PLl5ESC8o/oBJd8WTTXXCRoZK/6oxDjzvV+xp6090VYLkAgYDg==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -13,9 +13,9 @@
   integrity sha512-U1ntiX8XiMRRRH5J1IdC+1t5CE89015cwyt5U63Cpk0GnMlN5+h9WsWMlKlPXZR4rdq/m806JRlBMRpBUB2Dhw==
 
 "@aws-cdk/asset-node-proxy-agent-v5@^2.0.77":
-  version "2.0.125"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.125.tgz#ba1aa45fe15ca0a2a319dee3a8aafc5e67ee9748"
-  integrity sha512-uze9vHHeh/qjpwhgZ/f8ssUKqFJ/P6xzsbEKEIkSyhNFje79vXg8Nu60BlpqWcU9Z36DjXb0+0+vrTaFcmSUIA==
+  version "2.0.126"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.126.tgz#37fc5c820b3c2c4be70a708e6cf163fae5fb1a31"
+  integrity sha512-NzMIFA6VdX0JDnTU3UPZhwYC/tQqSn5yEeDNfACxoiZ4Ey+z8pIkQ3DBldqdAw8+YMKxblmyaA6pBy2xzqLLOg==
 
 "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2":
   version "7.21.0"
@@ -212,17 +212,17 @@
   dependencies:
     tslib "^2.4.0"
 
-"@tanstack/query-core@4.29.1":
-  version "4.29.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.29.1.tgz#62a4bc120b85e6bb3c6c0aca96346e643e232248"
-  integrity sha512-vkPewLEG8ua0efo3SsVT0BcBtkq5RZX8oPhDAyKL+k/rdOYSQTEocfGEXSaBwIwsXeOGBUpfKqI+UmHvNqdWXg==
+"@tanstack/query-core@4.29.5":
+  version "4.29.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.29.5.tgz#a0273e88bf2fc102c4c893dc7c034127b67fd5d9"
+  integrity sha512-xXIiyQ/4r9KfaJ3k6kejqcaqFXXBTzN2aOJ5H1J6aTJE9hl/nbgAdfF6oiIu0CD5xowejJEJ6bBg8TO7BN4NuQ==
 
 "@tanstack/react-query@*":
-  version "4.29.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.29.3.tgz#037205560784ed4a5e3fd605a2143e325b6189fa"
-  integrity sha512-FPQrMu7PbCgBcVzoRJm7WmQnAFv+LUgZM9KBZ7Vk/+yERH2BDLvQRuAgczQd5Tb1s3HbOktECRDaOkUxdyBAjw==
+  version "4.29.5"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.29.5.tgz#3890741291f9f925933243d78bd74dfc59d64208"
+  integrity sha512-F87cibC3s3eG0Q90g2O+hqntpCrudKFnR8P24qkH9uccEhXErnJxBC/AAI4cJRV2bfMO8IeGZQYf3WyYgmSg0w==
   dependencies:
-    "@tanstack/query-core" "4.29.1"
+    "@tanstack/query-core" "4.29.5"
     use-sync-external-store "^1.2.0"
 
 "@trpc/client@*":
@@ -399,9 +399,9 @@ aws-lambda@*:
     watchpack "^2.0.0-beta.10"
 
 aws-sdk@^2.814.0:
-  version "2.1363.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1363.0.tgz#30c3b7fe999ee2ba1103a533ea27e1b0f5708e1f"
-  integrity sha512-M2MZZXehgi/EMQv5GlzRkn3TlhoOYHg2cYdSAAqhjv67WaEG50MjaQy5vRvfN1i8XvB24aJFJ5pCrx69TaCaIg==
+  version "2.1364.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1364.0.tgz#91392b071c412c71531636060dafe182f5fcf7f5"
+  integrity sha512-PFoq9Rnu0DVi07wZ/SjKlrJDwso8AxE5q/ufLdNtINZPaSkB92OqKYVdlfQ4srsH2ala2NCrg8gFX98SCmqW3w==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -518,9 +518,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 constructs@*:
-  version "10.2.4"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.2.4.tgz#ed489c799142c3c6123caac7991b61d4248a0ab6"
-  integrity sha512-lls5uUt3LktiR5xqjwYndV+jzHRbdZn5PuSsc5iUA2zrKTJohTe/zIi0h3/GtMYrkWrAePYorFG2xBXvtPGpPQ==
+  version "10.2.5"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.2.5.tgz#2301e6e5311adc3cc93f9a79444d795d1a45cbe9"
+  integrity sha512-LyCWeQwD+kHu2gpoGzpnajdaUrtT5VaoQwxz0nzQb/38CF46X4CUlMYgPIqG3dt3yqMa9/xRU4M6br+7wVabHw==
 
 create-require@^1.1.0:
   version "1.1.1"
