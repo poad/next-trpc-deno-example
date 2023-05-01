@@ -11,8 +11,5 @@
     "aws-lambda": "*",
     "typescript": "*",
     "zod": "*"
-  },
-  "resolutions": {
-    "xml2js": ">=0.5.0"
   }
 }

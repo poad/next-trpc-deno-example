@@ -10,7 +10,7 @@
     "format-check": "rome format bin lib",
     "format": "rome format --write bin lib",
     "check": "rome check bin lib",
-    "check-fix": "rome check --apply-suggested bin lib",
+    "check-fix": "rome check --apply-unsafe bin lib",
     "lint": "yarn format-check && yarn check",
     "lint-fix": "yarn format && yarn check-fix",
     "cdk": "cdk"

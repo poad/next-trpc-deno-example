@@ -13,18 +13,15 @@ import * as ssm from 'aws-cdk-lib/aws-ssm';
 import * as crypto from 'crypto';
 
 interface ApiStackProps extends cdk.StackProps {
-  s3bucketName: string,
-  apiEndpointUrlParamName: string,
+  s3bucketName: string;
+  apiEndpointUrlParamName: string;
 }
 
 export class ApiStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: ApiStackProps) {
     super(scope, id, props);
 
-    const {
-      s3bucketName,
-      apiEndpointUrlParamName,
-    } = props;
+    const { s3bucketName, apiEndpointUrlParamName } = props;
 
     const denoRuntime = new sam.CfnApplication(this, 'DenoRuntime', {
       location: {
@@ -80,7 +77,7 @@ export class ApiStack extends cdk.Stack {
         statusCode: 204,
       },
     });
-    
+
     // eslint-disable-next-line no-new
     new apigateway.GatewayResponse(this, 'UnauthorizedGatewayResponse', {
       restApi: api,

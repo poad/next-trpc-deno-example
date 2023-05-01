@@ -20,6 +20,21 @@ if [ $result -ne 0 ]; then
   exit $result
 fi
 
+cd "${CURRENT}/lambda"
+git pull --prune
+result=$?
+if [ $result -ne 0 ]; then
+  cd "${CUR}"
+  exit $result
+fi
+pwd
+yarn install && yarn upgrade && yarn build
+result=$?
+if [ $result -ne 0 ]; then
+  cd "${CUR}"
+  exit $result
+fi
+
 
 cd "${CURRENT}/front"
 git pull --prune
