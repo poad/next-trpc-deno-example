@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
+    "export": "next build",
     "format-check": "rome format src",
     "format": "rome format --write src",
     "check": "rome check src",
@@ -15,7 +15,6 @@
     "lint-fix": "yarn format && yarn check-fix"
   },
   "dependencies": {
-    "@next/font": "*",
     "@tanstack/react-query": "*",
     "@trpc/client": "*",
     "@trpc/next": "*",

@@ -12,14 +12,18 @@ on:
 
 jobs:
   test:
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
 
-    - name: Use Node.js 18.x
+    - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3.6.0
       with:
-        node-version: 18.x
+        node-version: ${{ matrix.node-version }}
         check-latest: true
         cache: yarn
 
@@ -43,5 +47,5 @@ jobs:
       working-directory: front
       env:
         NEXT_PUBLIC_API_URL: http://localhost:3000/
-      run: yarn install && yarn build && yarn export
+      run: yarn install && yarn build
   
