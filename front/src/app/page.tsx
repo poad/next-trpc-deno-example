@@ -1,7 +1,8 @@
+'use client';
 import Head from 'next/head';
 import Image from 'next/image';
-import { Inter } from '@next/font/google';
-import styles from '@/styles/Home.module.css';
+import { Inter } from 'next/font/google';
+import styles from './styles/Home.module.css';
 import { useHello } from '../hooks/hello';
 import { useForm, SubmitHandler } from 'react-hook-form';
 
@@ -17,7 +18,7 @@ export default function Home() {
     handleSubmit,
     formState: { errors },
   } = useForm<Inputs>();
-  const { greeting: hello, fetch } = useHello('world.');
+  const { greeting: hello, fetch } = useHello();
 
   const onSubmit: SubmitHandler<Inputs> = (data) => {
     fetch(data.text);

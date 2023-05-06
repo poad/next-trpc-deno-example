@@ -70,7 +70,7 @@ jobs:
       working-directory: front
       env:
         NEXT_PUBLIC_API_URL: ${{ steps.get-param.outputs.value }}
-      run: yarn install && yarn build && yarn export
+      run: yarn install && yarn build
   
     - name: Upload to s3
       working-directory: front/out
