@@ -44,7 +44,7 @@ if [ $result -ne 0 ]; then
   exit $result
 fi
 pwd
-yarn install && yarn upgrade && yarn lint && yarn build && yarn export
+yarn install && yarn upgrade && yarn lint && yarn build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"

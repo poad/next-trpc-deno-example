@@ -4,9 +4,7 @@ import './styles/globals.css';
 export default function Document({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>
-        { children }
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
