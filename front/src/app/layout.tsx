@@ -3,7 +3,7 @@ import './styles/globals.css';
 
 export default function Document({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body>{children}</body>
     </html>
   );

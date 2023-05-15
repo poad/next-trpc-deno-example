@@ -7,10 +7,10 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "format-check": "rome format bin lib",
-    "format": "rome format --write bin lib",
-    "check": "rome check bin lib",
-    "check-fix": "rome check --apply-unsafe bin lib",
+    "format-check": "rome format bin && rome format lib",
+    "format": "rome format --write bin && rome format --write  lib",
+    "check": "rome check bin && rome check lib",
+    "check-fix": "rome check --apply-unsafe bin && rome check --apply-unsafe lib",
     "lint": "yarn format-check && yarn check",
     "lint-fix": "yarn format && yarn check-fix",
     "cdk": "cdk"
