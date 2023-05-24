@@ -154,9 +154,9 @@
     "@types/react" "*"
 
 "@types/react@*":
-  version "18.2.6"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.6.tgz#5cd53ee0d30ffc193b159d3516c8c8ad2f19d571"
-  integrity sha512-wRZClXn//zxCFW+ye/D2qY65UsYP1Fpex2YXorHc8awoNamkMZSvBxwxdYVInsHOZZd2Ppq8isnSzJL5Mpf8OA==
+  version "18.2.7"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.7.tgz#dfb4518042a3117a045b8c222316f83414a783b3"
+  integrity sha512-ojrXpSH2XFCmHm7Jy3q44nXDyN54+EYKP2lBhJ2bqfyPj6cIUW/FZW/Csdia34NQgq7KYcAlHi5184m4X88+yw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -190,9 +190,9 @@ aws-lambda@*:
     watchpack "^2.0.0-beta.10"
 
 aws-sdk@^2.814.0:
-  version "2.1382.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1382.0.tgz#d14996c8bfc76f1f6e021a27de7dfb18043c3128"
-  integrity sha512-WAe8bqD4kLdyZwRLHn16bt1kT1Ijdx2MWjWHpWR6krLxQKSA5WKXCdO4JoR/ywzbi0k5covQIAgl/ZSNtCvA4Q==
+  version "2.1384.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1384.0.tgz#b8a642a849af25dbfed42818c162c30ab04dfbac"
+  integrity sha512-5b1ShZ8508yamZKjpRJJlMcztH2EBxnuH8KZObEH4FY/+pHqGIfUtrSVO0IaPNj7RmOnQJ93zCzBc7dhTnEK4A==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
