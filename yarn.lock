@@ -239,9 +239,9 @@
   integrity sha512-M4W1aGm3VAfQ9u4FJyK8M+pkcAV4lp32ZHxKnkRydxcsladhsqveZC9oqZqwklprEcYHtWU8v3R+jRGUjfCxpw==
 
 "@trpc/server@*":
-  version "10.31.0"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.31.0.tgz#2a757e814d9a779d6faa8b4fd6bda80691179a19"
-  integrity sha512-9EnRTSDE9nF11LZsvSOqNKqkRYzHqFX4ch5AJ6VIu8uta2vxVTN4FxxsNRSOluTzVYZDeaCISbwmOJ5iihCCIg==
+  version "10.32.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.32.0.tgz#15a32f251bdcab4536968aa98e2e397248f28051"
+  integrity sha512-C4HRHpaffw2pekpfNSHQtwlocq6kwAQq48mR9RIsUZGNbjXZbgvBC927vRP6QPAoG+n4oHPWyZ9G1hs3KMcPiw==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
