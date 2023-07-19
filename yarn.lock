@@ -389,9 +389,9 @@ aws-lambda@*:
     watchpack "^2.0.0-beta.10"
 
 aws-sdk@^2.814.0:
-  version "2.1417.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1417.0.tgz#47056eb03f335f07d03514019fa6922b03865fce"
-  integrity sha512-tSYegmmcwUwr5PGivsqQ+j49D+mE1f6diKnTylrvyZ463nFB9cAe1GcDgKD/Q3zSKq0mcpF/WZCesnC3pFD9UQ==
+  version "2.1418.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1418.0.tgz#3c04e3484b9c826492b1d1d10f4ba19f4860e2a0"
+  integrity sha512-6WDMJQAWKwVt+44+61c/SAXKpUSwToqBMeaqizhEe3GN8TWfxMc9RfCnsYIIwS+L+5hedmKC5oc6Fg2ujs8KUQ==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -471,9 +471,9 @@ call-bind@^1.0.2:
     get-intrinsic "^1.0.2"
 
 caniuse-lite@^1.0.30001406:
-  version "1.0.30001516"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001516.tgz#621b1be7d85a8843ee7d210fd9d87b52e3daab3a"
-  integrity sha512-Wmec9pCBY8CWbmI4HsjBeQLqDTqV91nFVR83DnZpYyRnPI1wePDsTg0bGLPC5VU/3OIZV1fmxEea1b+tFKe86g==
+  version "1.0.30001517"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001517.tgz#90fabae294215c3495807eb24fc809e11dc2f0a8"
+  integrity sha512-Vdhm5S11DaFVLlyiKu4hiUTkpZu+y1KA/rZZqVQfOD5YdDT/eQKlkt7NaE0WGOFgX32diqt9MiP9CAiFeRklaA==
 
 case@1.6.3:
   version "1.6.3"
