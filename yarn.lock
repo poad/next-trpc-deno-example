@@ -221,9 +221,9 @@
     use-sync-external-store "^1.2.0"
 
 "@trpc/client@*":
-  version "10.34.0"
-  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.34.0.tgz#cd9bc5ec4801dde24bb343408c7fe203595db538"
-  integrity sha512-nqtDTIqSY/9syo2EjSy4WWWXPU9GsamEh9Tsg698gLAh1nhgFc5+/YYeb+Ne1pbvWGZ5/3t9Dcz3h4wMyyJ9gQ==
+  version "10.35.0"
+  resolved "https://registry.yarnpkg.com/@trpc/client/-/client-10.35.0.tgz#34b65f83fc2b23dd6e79ee6fa3f56f5f6d3d2b81"
+  integrity sha512-FyVNQGLLsNourpYq7bojvvvpM63woCPL9c+lJo9x1Yheop5fng2GEyiVcVjCmBNk5tVARHjG9bTG1UeNF5t8OQ==
 
 "@trpc/next@*":
   version "10.35.0"
