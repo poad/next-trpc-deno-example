@@ -1,7 +1,7 @@
 name: enables auto merge
 
 on:
-  pull_request:
+  pull_request_target:
     branches:
       - main
 
@@ -20,8 +20,8 @@ jobs:
       if: github.event_name == 'pull_request'
       uses: poad/github-pull-request-auto-merge-enable-action@v1.0.4
       with:
-        pull_request_id: ${{ github.event.pull_request.node_id }}
-        github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+        pull_request_number: ${{ github.event.pull_request.number }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         repository: ${{ github.event.repository.name }}
         owner: ${{ github.repository_owner }}
         merge_method: SQUASH

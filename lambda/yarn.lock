@@ -3,9 +3,9 @@
 
 
 "@trpc/server@*":
-  version "10.34.0"
-  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.34.0.tgz#0c56ca4a72f41bfc558b07a2db70d54b77077f8f"
-  integrity sha512-2VMW44Fpaoyqb50dBtzdSWMhqt8lmoJiocEyBBeDb03R0W+XrzbVD5kU/wqKPlcp1DWeNCkOEIMtetMZCfo1hA==
+  version "10.35.0"
+  resolved "https://registry.yarnpkg.com/@trpc/server/-/server-10.35.0.tgz#b6ec61c84a70da0d9280205a91148c367a6f2c48"
+  integrity sha512-UntbE9gG+kB2nEwuJ0hw7AmQuRWw67voKaVBPBA7Ow6+aGZc00gva7015Ey5BT7Qf1wq7xJMLUdgw4QiVU+VpQ==
 
 "@types/aws-lambda@*":
   version "8.10.119"
@@ -35,9 +35,9 @@ aws-lambda@*:
     watchpack "^2.0.0-beta.10"
 
 aws-sdk@^2.814.0:
-  version "2.1418.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1418.0.tgz#3c04e3484b9c826492b1d1d10f4ba19f4860e2a0"
-  integrity sha512-6WDMJQAWKwVt+44+61c/SAXKpUSwToqBMeaqizhEe3GN8TWfxMc9RfCnsYIIwS+L+5hedmKC5oc6Fg2ujs8KUQ==
+  version "2.1422.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1422.0.tgz#114a06cca27a6163ae8b1b7f3bed11fbf5fabe1b"
+  integrity sha512-dBHCT42s2NOrZVSeKQ+I0kPsAPN0QhbKv05gQFQL79yGIOqLZawWos8vtKSYdp9wEOpiIRttB7m6usYJObKpWA==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
