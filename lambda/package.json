@@ -6,10 +6,10 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@trpc/server": "*",
-    "@types/aws-lambda": "*",
-    "aws-lambda": "*",
-    "typescript": "*",
-    "zod": "*"
+    "@trpc/server": "^10.38.1",
+    "@types/aws-lambda": "^8.10.119",
+    "aws-lambda": "^1.0.7",
+    "typescript": "^5.2.2",
+    "zod": "^3.22.2"
   }
 }

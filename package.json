@@ -8,8 +8,8 @@
     "format": "rome format --write lambda",
     "check": "rome check lambda",
     "check-fix": "rome check --apply-suggested lambda",
-    "lint": "yarn format-check && yarn check",
-    "lint-fix": "yarn format && yarn check-fix"
+    "lint": "pnpm format-check && pnpm check",
+    "lint-fix": "pnpm format && pnpm check-fix"
   },
   "workspaces": [
     "./cdk",
