@@ -13,7 +13,7 @@ if [ $result -ne 0 ]; then
   exit $result
 fi
 pwd
-yarn install && yarn upgrade
+pnpm install -r && pnpm up -r
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
@@ -28,7 +28,7 @@ if [ $result -ne 0 ]; then
   exit $result
 fi
 pwd
-yarn install && yarn upgrade && yarn build
+pnpm install && pnpm up && pnpm build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
@@ -44,7 +44,7 @@ if [ $result -ne 0 ]; then
   exit $result
 fi
 pwd
-yarn install && yarn upgrade && yarn lint && yarn build
+pnpm install && pnpm up && pnpm lint && pnpm build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
@@ -59,7 +59,7 @@ if [ $result -ne 0 ]; then
   exit $result
 fi
 pwd
-yarn install && yarn upgrade && yarn lint && yarn build
+pnpm install && pnpm up && pnpm lint && pnpm build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
