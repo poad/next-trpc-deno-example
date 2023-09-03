@@ -2,9 +2,9 @@
   "imports": {
     "~/": "./",
     "aws-lambda": "https://deno.land/x/lambda/mod.ts",
-    "@trpc/server": "https://esm.sh/@trpc/server@10.25.0/",
-    "@trpc/server/": "https://esm.sh/@trpc/server@10.25.0/",
-    "zod": "https://esm.sh/zod@3.20.6"
+    "@trpc/server": "https://esm.sh/@trpc/server@10.38.1/",
+    "@trpc/server/": "https://esm.sh/@trpc/server@10.38.1/",
+    "zod": "https://esm.sh/zod@3.22.2"
   },
   "scopes": {}
 }
