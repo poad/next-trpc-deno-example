@@ -4,10 +4,10 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "format-check": "rome format lambda",
-    "format": "rome format --write lambda",
-    "check": "rome check lambda",
-    "check-fix": "rome check --apply-suggested lambda",
+    "format-check": "pnpm dlx @biomejs/biome@latest format lambda",
+    "format": "pnpm dlx @biomejs/biome@latest format --write lambda",
+    "check": "pnpm dlx @biomejs/biome@latest check lambda",
+    "check-fix": "pnpm dlx @biomejs/biome@latest check --apply-unsafe lambda",
     "lint": "pnpm format-check && pnpm check",
     "lint-fix": "pnpm format && pnpm check-fix"
   },
