@@ -19,7 +19,6 @@ interface ApiStackProps extends cdk.StackProps {
 
 export class ApiStack extends cdk.Stack {
 	constructor(scope: Construct, id: string, props: ApiStackProps) {
-		// biome-ignore lint/correctness/noInvalidConstructorSuper: <explanation>
 		super(scope, id, props);
 
 		const { s3bucketName, apiEndpointUrlParamName } = props;

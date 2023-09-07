@@ -16,10 +16,10 @@
     "./lambda",
     "./front"
   ],
-	"packageManager": "pnpm@8.7.1",
+	"packageManager": "pnpm@8.7.4",
 	"engines": {
 		"npm": "use pnpm please!",
 		"yarn": "use pnpm please!",
-		"pnpm": ">=8.7.1"
+		"pnpm": ">=8.7.4"
 	}
 }
