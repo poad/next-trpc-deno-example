@@ -38,7 +38,7 @@ jobs:
         check-latest: true
 
     - name: configure aws credentials
-      uses: aws-actions/configure-aws-credentials@v3
+      uses: aws-actions/configure-aws-credentials@v4
       with:
         role-to-assume: ${{ secrets.OIDC_IAM_ROLE }}
         role-session-name: GitHubActions
