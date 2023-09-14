@@ -11,8 +11,8 @@ importers:
   cdk:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.95.1
-        version: 2.95.1(constructs@10.2.70)
+        specifier: ^2.96.0
+        version: 2.96.0(constructs@10.2.70)
       constructs:
         specifier: ^10.2.70
         version: 10.2.70
@@ -27,8 +27,8 @@ importers:
         specifier: ^20.6.0
         version: 20.6.0
       aws-cdk:
-        specifier: ^2.95.1
-        version: 2.95.1
+        specifier: ^2.96.0
+        version: 2.96.0
       ts-node:
         specifier: ^10.9.1
         version: 10.9.1(@types/node@20.6.0)(typescript@5.2.2)
@@ -45,11 +45,16 @@ importers:
         specifier: ^4.35.3
         version: 4.35.3(react-dom@18.2.0)(react@18.2.0)
       '@trpc/client':
-        specifier: ^10.38.2
-        version: 10.38.2(@trpc/server@10.38.3)
+        specifier: ^10.38.3
+        version: 10.38.3(@trpc/server@10.38.3)
       '@trpc/next':
         specifier: ^10.38.2
         version: 10.38.2(@tanstack/react-query@4.35.3)(@trpc/client@10.38.2)(@trpc/react-query@10.38.3)(@trpc/server@10.38.3)(next@13.4.19)(react-dom@18.2.0)(react@18.2.0)
+      '@trpc/react-query':
+        specifier: ^10.38.3
+        version: 10.38.3(@tanstack/react-query@4.35.3)(@trpc/client@10.38.2)(@trpc/server@10.38.3)(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^10.38.3
+        version: 10.38.3(@tanstack/react-query@4.35.3)(@trpc/client@10.38.2)(@trpc/react-query@10.38.2)(@trpc/server@10.38.2)(next@13.4.19)(react-dom@18.2.0)(react@18.2.0)
       '@trpc/react-query':
         specifier: ^10.38.3
         version: 10.38.3(@tanstack/react-query@4.35.3)(@trpc/client@10.38.2)(@trpc/server@10.38.3)(react-dom@18.2.0)(react@18.2.0)
@@ -333,27 +338,27 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@trpc/client@10.38.2(@trpc/server@10.38.3):
-    resolution: {integrity: sha512-M76i9952a5qa+X1dekhn359jVnCrGrM/BH4Woc4O/RdSpEG7xQbwUHhQv1Y75lQ/+feVRUMooD7u3NtZ0/TVUQ==}
+  /@trpc/client@10.38.3(@trpc/server@10.38.3):
+    resolution: {integrity: sha512-hHPsElTL4sB+UGzuAZ4iwRVHjELrk/Nsl2owsYw9ITJz3EY7VWRsQ6vK48kJvlHPYPhP+efID5UOgyZMs4bFXA==}
     peerDependencies:
-      '@trpc/server': 10.38.2
+      '@trpc/server': 10.38.3
     dependencies:
       '@trpc/server': 10.38.3
     dev: false
 
-  /@trpc/next@10.38.2(@tanstack/react-query@4.35.3)(@trpc/client@10.38.2)(@trpc/react-query@10.38.3)(@trpc/server@10.38.3)(next@13.4.19)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-rSomXjjqmqRZ6vM8Z6G70W4q28MSQjVBMXm7Yz2luwt8M4JDDU+3VyM9jeNVyZc26YWHfV+vGf93NC+elKNa2w==}
+  /@trpc/next@10.38.3(@tanstack/react-query@4.35.3)(@trpc/client@10.38.2)(@trpc/react-query@10.38.2)(@trpc/server@10.38.2)(next@13.4.19)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-9dTThNtkcJG2ICzgVHu9zZWkDAnmYi8NOjv3TVNzO1SiWlIbgE4OUiD8xamMiP7A0VS1qZmo5T+5VrQdMDQlVA==}
     peerDependencies:
       '@tanstack/react-query': ^4.18.0
-      '@trpc/client': 10.38.2
-      '@trpc/react-query': 10.38.2
-      '@trpc/server': 10.38.2
+      '@trpc/client': 10.38.3
+      '@trpc/react-query': 10.38.3
+      '@trpc/server': 10.38.3
       next: '*'
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
       '@tanstack/react-query': 4.35.3(react-dom@18.2.0)(react@18.2.0)
-      '@trpc/client': 10.38.2(@trpc/server@10.38.3)
+      '@trpc/client': 10.38.3(@trpc/server@10.38.3)
       '@trpc/react-query': 10.38.3(@tanstack/react-query@4.35.3)(@trpc/client@10.38.2)(@trpc/server@10.38.3)(react-dom@18.2.0)(react@18.2.0)
       '@trpc/server': 10.38.3
       next: 13.4.19(react-dom@18.2.0)(react@18.2.0)
@@ -372,7 +377,7 @@ packages:
       react-dom: '>=16.8.0'
     dependencies:
       '@tanstack/react-query': 4.35.3(react-dom@18.2.0)(react@18.2.0)
-      '@trpc/client': 10.38.2(@trpc/server@10.38.3)
+      '@trpc/client': 10.38.3(@trpc/server@10.38.3)
       '@trpc/server': 10.38.3
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -479,8 +484,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /aws-cdk-lib@2.95.1(constructs@10.2.70):
-    resolution: {integrity: sha512-FQlnW3+c1j2W7hmu+QMSiWnBgbW1Lhn1ZpBQ6cwYZa97rII1zlEyTowAfzQk6szPIzUhJv5xK03nWZtvCvpAWw==}
+  /aws-cdk-lib@2.96.0(constructs@10.2.70):
+    resolution: {integrity: sha512-344rjcoVt9IXkQYJF6X+rpfiAaIX2PIWZtGJN4vE63VeCYEiEnzEQL4kNfET7xK5/+1kuRULQudjSwKoLQHAvQ==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -512,8 +517,8 @@ packages:
       - table
       - yaml
 
-  /aws-cdk@2.95.1:
-    resolution: {integrity: sha512-KUJ63n2cB6qxpsHARmMWDhu8VITA7rKvYybbfS7BaBpXl4Tb9Bt/mEAY1EeVeyO/mpInvSRpMpdjyqE0kNAKtA==}
+  /aws-cdk@2.96.0:
+    resolution: {integrity: sha512-Zk/6q6taSqeKtWFmDqpdh9LQuB9ZKTLj7eiFCvUtGRP9Zo9Td13tj6Gxg6i/YDeeJT1oSIN3gD+0jQ4Yj5p/4A==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
