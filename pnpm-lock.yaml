@@ -57,8 +57,8 @@ importers:
         specifier: ^10.38.3
         version: 10.38.3
       '@types/aws-lambda':
-        specifier: ^8.10.120
-        version: 8.10.120
+        specifier: ^8.10.121
+        version: 8.10.121
       '@types/node':
         specifier: ^20.6.0
         version: 20.6.0
@@ -99,8 +99,8 @@ importers:
         specifier: ^10.38.3
         version: 10.38.3
       '@types/aws-lambda':
-        specifier: ^8.10.120
-        version: 8.10.120
+        specifier: ^8.10.121
+        version: 8.10.121
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -398,8 +398,8 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: true
 
-  /@types/aws-lambda@8.10.120:
-    resolution: {integrity: sha512-ReLUWj/2EYNx7qs17bkBkgSmr0jB1GGTRyorhHJmq8nqlWxEyWyto1GFsGTGdbLI0cAj1AcbBAA1oZYUQEqZng==}
+  /@types/aws-lambda@8.10.121:
+    resolution: {integrity: sha512-Y/jsUwO18HuC0a39BuMQkSOd/kMGATh/h5LNksw8FlTafbQ3Ge3578ZoT8w8gSOsWl2qH1p/SS/R61vc0X5jIQ==}
     dev: false
 
   /@types/node@20.6.0:
