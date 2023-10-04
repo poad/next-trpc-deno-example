@@ -10,7 +10,7 @@
     "@types/aws-lambda": "^8.10.123",
     "aws-lambda": "^1.0.7",
     "typescript": "^5.2.2",
-    "zod": "^3.22.2"
+    "zod": "^3.22.3"
   },
   "packageManager": "pnpm@8.7.4",
   "engines": {
