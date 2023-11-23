@@ -24,14 +24,14 @@ importers:
         specifier: 1.3.3
         version: 1.3.3
       '@types/node':
-        specifier: ^20.9.4
-        version: 20.9.4
+        specifier: ^20.9.5
+        version: 20.9.5
       aws-cdk:
         specifier: ^2.110.1
         version: 2.110.1
       ts-node:
         specifier: ^10.9.1
-        version: 10.9.1(@types/node@20.9.4)(typescript@5.3.2)
+        version: 10.9.1(@types/node@20.9.5)(typescript@5.3.2)
       typescript:
         specifier: ^5.3.2
         version: 5.3.2
@@ -45,23 +45,23 @@ importers:
         specifier: ^4.36.1
         version: 4.36.1(react-dom@18.2.0)(react@18.2.0)
       '@trpc/client':
-        specifier: ^10.44.0
-        version: 10.44.0(@trpc/server@10.44.0)
+        specifier: ^10.44.1
+        version: 10.44.1(@trpc/server@10.44.1)
       '@trpc/next':
-        specifier: ^10.44.0
-        version: 10.44.0(@tanstack/react-query@4.36.1)(@trpc/client@10.44.0)(@trpc/react-query@10.44.0)(@trpc/server@10.44.0)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^10.44.1
+        version: 10.44.1(@tanstack/react-query@4.36.1)(@trpc/client@10.44.1)(@trpc/react-query@10.44.1)(@trpc/server@10.44.1)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0)
       '@trpc/react-query':
-        specifier: ^10.44.0
-        version: 10.44.0(@tanstack/react-query@4.36.1)(@trpc/client@10.44.0)(@trpc/server@10.44.0)(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^10.44.1
+        version: 10.44.1(@tanstack/react-query@4.36.1)(@trpc/client@10.44.1)(@trpc/server@10.44.1)(react-dom@18.2.0)(react@18.2.0)
       '@trpc/server':
-        specifier: ^10.44.0
-        version: 10.44.0
+        specifier: ^10.44.1
+        version: 10.44.1
       '@types/aws-lambda':
         specifier: ^8.10.129
         version: 8.10.129
       '@types/node':
-        specifier: ^20.9.4
-        version: 20.9.4
+        specifier: ^20.9.5
+        version: 20.9.5
       '@types/react':
         specifier: ^18.2.38
         version: 18.2.38
@@ -96,8 +96,8 @@ importers:
   lambda:
     dependencies:
       '@trpc/server':
-        specifier: ^10.44.0
-        version: 10.44.0
+        specifier: ^10.44.1
+        version: 10.44.1
       '@types/aws-lambda':
         specifier: ^8.10.129
         version: 8.10.129
@@ -404,53 +404,53 @@ packages:
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
 
-  /@trpc/client@10.44.0(@trpc/server@10.44.0):
-    resolution: {integrity: sha512-6PAL5rXMGTMlsKKGW9aBsij8XFBbLUbOCJ7jNVX3IripGqiQG3b/VJyTsHRWkss/oaz/sZMOn62amhfev1UVfg==}
+  /@trpc/client@10.44.1(@trpc/server@10.44.1):
+    resolution: {integrity: sha512-vTWsykNcgz1LnwePVl2fKZnhvzP9N3GaaLYPkfGINo314ZOS0OBqe9x0ytB2LLUnRVTAAZ2WoONzARd8nHiqrA==}
     peerDependencies:
-      '@trpc/server': 10.44.0
+      '@trpc/server': 10.44.1
     dependencies:
-      '@trpc/server': 10.44.0
+      '@trpc/server': 10.44.1
     dev: false
 
-  /@trpc/next@10.44.0(@tanstack/react-query@4.36.1)(@trpc/client@10.44.0)(@trpc/react-query@10.44.0)(@trpc/server@10.44.0)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-C4eKsSWdH0rUu0a0kUl+OC8RcI7DCsl3YZgXfKdPOEzRQ/njIgWWAouETRikzeHjulVN4/yz3ekcTyibfDNpKA==}
+  /@trpc/next@10.44.1(@tanstack/react-query@4.36.1)(@trpc/client@10.44.1)(@trpc/react-query@10.44.1)(@trpc/server@10.44.1)(next@13.5.6)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-ez2oYUzmaQ+pGch627sRBfeEk3h+UIwNicR8WjTAM54TPcdP5W9ZyWCyO5HZTEfjHgGixYM4tCIxewdKOWY9yA==}
     peerDependencies:
       '@tanstack/react-query': ^4.18.0
-      '@trpc/client': 10.44.0
-      '@trpc/react-query': 10.44.0
-      '@trpc/server': 10.44.0
+      '@trpc/client': 10.44.1
+      '@trpc/react-query': 10.44.1
+      '@trpc/server': 10.44.1
       next: '*'
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
       '@tanstack/react-query': 4.36.1(react-dom@18.2.0)(react@18.2.0)
-      '@trpc/client': 10.44.0(@trpc/server@10.44.0)
-      '@trpc/react-query': 10.44.0(@tanstack/react-query@4.36.1)(@trpc/client@10.44.0)(@trpc/server@10.44.0)(react-dom@18.2.0)(react@18.2.0)
-      '@trpc/server': 10.44.0
+      '@trpc/client': 10.44.1(@trpc/server@10.44.1)
+      '@trpc/react-query': 10.44.1(@tanstack/react-query@4.36.1)(@trpc/client@10.44.1)(@trpc/server@10.44.1)(react-dom@18.2.0)(react@18.2.0)
+      '@trpc/server': 10.44.1
       next: 13.5.6(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-ssr-prepass: 1.5.0(react@18.2.0)
     dev: false
 
-  /@trpc/react-query@10.44.0(@tanstack/react-query@4.36.1)(@trpc/client@10.44.0)(@trpc/server@10.44.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-0l9mar1kSamm/sePnHOuhX8v9LFQbgpVJ2U2s/hWnScNexBFzV03SpCjLAkXtiIapw5lkIG0QlveZXu4G86Xnw==}
+  /@trpc/react-query@10.44.1(@tanstack/react-query@4.36.1)(@trpc/client@10.44.1)(@trpc/server@10.44.1)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Sgi/v0YtdunOXjBRi7om9gILGkOCFYXPzn5KqLuEHiZw5dr5w4qGHFwCeMAvndZxmwfblJrl1tk2AznmsVu8MA==}
     peerDependencies:
       '@tanstack/react-query': ^4.18.0
-      '@trpc/client': 10.44.0
-      '@trpc/server': 10.44.0
+      '@trpc/client': 10.44.1
+      '@trpc/server': 10.44.1
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
       '@tanstack/react-query': 4.36.1(react-dom@18.2.0)(react@18.2.0)
-      '@trpc/client': 10.44.0(@trpc/server@10.44.0)
-      '@trpc/server': 10.44.0
+      '@trpc/client': 10.44.1(@trpc/server@10.44.1)
+      '@trpc/server': 10.44.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@trpc/server@10.44.0:
-    resolution: {integrity: sha512-QBq/FnjyU6a7CAl9p2dv6kApn2i8MFuPt8uVLyGr0oa2aFv31rHaX0m+ibdsviE/3fOJIC8EUOfMYOJma5uK2w==}
+  /@trpc/server@10.44.1:
+    resolution: {integrity: sha512-mF7B+K6LjuboX8I1RZgKE5GA/fJhsJ8tKGK2UBt3Bwik7hepEPb4NJgNr7vO6BK5IYwPdBLRLTctRw6XZx0sRg==}
     engines: {node: '>=18.0.0'}
     dev: false
 
@@ -474,8 +474,8 @@ packages:
     resolution: {integrity: sha512-0Rl7CpTPVws5cp0Ui1gZh4Q+TXC65bXVwTOGoI2RKW45dxWzyZGbjIX0uFjFYdIJ8vnD45y584rIIqvD2vBBfQ==}
     dev: false
 
-  /@types/node@20.9.4:
-    resolution: {integrity: sha512-wmyg8HUhcn6ACjsn8oKYjkN/zUzQeNtMy44weTJSM6p4MMzEOuKbA3OjJ267uPCOW7Xex9dyrNTful8XTQYoDA==}
+  /@types/node@20.9.5:
+    resolution: {integrity: sha512-Uq2xbNq0chGg+/WQEU0LJTSs/1nKxz6u1iemLcGomkSnKokbW1fbLqc3HOqCf2JP7KjlL4QkS7oZZTrOQHQYgQ==}
     dependencies:
       undici-types: 5.26.5
 
@@ -1103,7 +1103,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /ts-node@10.9.1(@types/node@20.9.4)(typescript@5.3.2):
+  /ts-node@10.9.1(@types/node@20.9.5)(typescript@5.3.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -1122,7 +1122,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.9.4
+      '@types/node': 20.9.5
       acorn: 8.11.2
       acorn-walk: 8.3.0
       arg: 4.1.3
