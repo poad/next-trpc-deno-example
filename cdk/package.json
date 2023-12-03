@@ -16,7 +16,7 @@
     "cdk": "cdk"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.4.0",
+    "@biomejs/biome": "1.4.1",
     "@types/node": "^20.10.1",
     "aws-cdk": "^2.113.0",
     "ts-node": "^10.9.1",
