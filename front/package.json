@@ -22,7 +22,7 @@
     "@trpc/react-query": "^10.45.0",
     "@trpc/server": "^10.45.0",
     "@types/aws-lambda": "^8.10.131",
-    "@types/node": "^20.11.6",
+    "@types/node": "^20.11.7",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "aws-lambda": "^1.0.7",
