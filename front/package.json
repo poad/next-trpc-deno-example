@@ -21,7 +21,7 @@
     "@trpc/next": "^10.45.0",
     "@trpc/react-query": "^10.45.0",
     "@trpc/server": "^10.45.0",
-    "@types/aws-lambda": "^8.10.132",
+    "@types/aws-lambda": "^8.10.133",
     "@types/node": "^20.11.10",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
