@@ -35,7 +35,7 @@ export class ApiStack extends cdk.Stack {
     const layer = lambda.LayerVersion.fromLayerVersionArn(
       this,
       "denoRuntimeLayer",
-      denoRuntime.getAtt("Outputs.LayerArn").toString()
+      denoRuntime.getAtt("Outputs.LayerArn").toString(),
     );
 
     const functionName = "next-trpc-deno-example-api-function";
@@ -146,7 +146,7 @@ export class ApiStack extends cdk.Stack {
             "s3:ResourceAccount": this.account,
           },
         },
-      })
+      }),
     );
 
     s3bucket.addToResourcePolicy(
@@ -160,7 +160,7 @@ export class ApiStack extends cdk.Stack {
             "aws:Referer": hash,
           },
         },
-      })
+      }),
     );
     s3bucket.addToResourcePolicy(
       new iam.PolicyStatement({
@@ -174,7 +174,7 @@ export class ApiStack extends cdk.Stack {
             "s3:x-amz-server-side-encryption": "AES256",
           },
         },
-      })
+      }),
     );
 
     const distribution = new cloudfront.Distribution(this, "CloudFront", {
@@ -186,7 +186,7 @@ export class ApiStack extends cdk.Stack {
               Referer: hash,
             },
             protocolPolicy: cloudfront.OriginProtocolPolicy.HTTP_ONLY,
-          }
+          },
         ),
         cachePolicy: cloudfront.CachePolicy.CACHING_DISABLED,
       },

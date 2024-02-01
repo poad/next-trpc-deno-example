@@ -5,14 +5,14 @@ import { APIGatewayProxyEvent } from "aws-lambda";
 import { z } from "zod";
 
 function createContext({
-	event,
-	context,
+  event,
+  context,
 }: CreateAWSLambdaContextOptions<APIGatewayProxyEvent>) {
-	return {
-		event,
-		context,
-		apiVersion: (event as { version?: string }).version || "1.0",
-	};
+  return {
+    event,
+    context,
+    apiVersion: (event as { version?: string }).version || "1.0",
+  };
 }
 
 type Context = trpc.inferAsyncReturnType<typeof createContext>;
@@ -23,33 +23,33 @@ const procedure = t.procedure;
 const router = t.router;
 
 const appRouter = router({
-	hello: procedure
-		.input(
-			z.object({
-				text: z.string(),
-			}),
-		)
-		.query(({ input }) => {
-			return {
-				greeting: `hello ${input.text}`,
-			};
-		}),
+  hello: procedure
+    .input(
+      z.object({
+        text: z.string(),
+      }),
+    )
+    .query(({ input }) => {
+      return {
+        greeting: `hello ${input.text}`,
+      };
+    }),
 });
 
 export type AppRouter = typeof appRouter;
 
 export const handler = awsLambdaRequestHandler({
-	router: appRouter,
-	createContext,
-	responseMeta() {
-		return {
-			headers: {
-				"Access-Control-Allow-Origin": "*",
-				"Access-Control-Request-Method": "*",
-				"Access-Control-Allow-Methods": "OPTIONS, GET, POST",
-				"Access-Control-Allow-Headers": "*",
-				"Content-Type": "application/json; charset=UTF-8",
-			},
-		};
-	},
+  router: appRouter,
+  createContext,
+  responseMeta() {
+    return {
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Request-Method": "*",
+        "Access-Control-Allow-Methods": "OPTIONS, GET, POST",
+        "Access-Control-Allow-Headers": "*",
+        "Content-Type": "application/json; charset=UTF-8",
+      },
+    };
+  },
 });
