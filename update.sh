@@ -5,72 +5,41 @@ CUR=$(pwd)
 CURRENT=$(cd $(dirname $0);pwd)
 echo "${CURRENT}"
 
-cd "${CURRENT}"
+cd "${CURRENT}" || exit
 git pull --prune
 result=$?
 if [ $result -ne 0 ]; then
-  cd "${CUR}"
+  cd "${CUR}" || exit
   exit $result
 fi
 pwd
 pnpm install -r && pnpm up -r
 result=$?
 if [ $result -ne 0 ]; then
-  cd "${CUR}"
+  cd "${CUR}" || exit
   exit $result
 fi
 
-cd "${CURRENT}/lambda"
+cd "${CURRENT}" || exit
 git pull --prune
 result=$?
 if [ $result -ne 0 ]; then
-  cd "${CUR}"
+  cd "${CUR}" || exit
   exit $result
 fi
 pwd
-pnpm install && pnpm up && pnpm build
+pnpm install -r && pnpm up -r && pnpm --parallel --if-present -r lint && pnpm -r --if-present --parallel build
 result=$?
 if [ $result -ne 0 ]; then
-  cd "${CUR}"
-  exit $result
-fi
-
-
-cd "${CURRENT}/front"
-git pull --prune
-result=$?
-if [ $result -ne 0 ]; then
-  cd "${CUR}"
-  exit $result
-fi
-pwd
-pnpm install && pnpm up && pnpm lint && pnpm build
-result=$?
-if [ $result -ne 0 ]; then
-  cd "${CUR}"
-  exit $result
-fi
-
-cd "${CURRENT}/cdk"
-git pull --prune
-result=$?
-if [ $result -ne 0 ]; then
-  cd "${CUR}"
-  exit $result
-fi
-pwd
-pnpm install && pnpm up && pnpm lint && pnpm build
-result=$?
-if [ $result -ne 0 ]; then
-  cd "${CUR}"
+  cd "${CUR}" || exit
   exit $result
 fi
 
 git commit -am "Bumps node modules" && git push
 result=$?
 if [ $result -ne 0 ]; then
-  cd "${CUR}"
+  cd "${CUR}" || exit
   exit $result
 fi
 
-cd "${CUR}"
+cd "${CUR}" || exit

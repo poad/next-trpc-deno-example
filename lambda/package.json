@@ -12,7 +12,6 @@
     "typescript": "^5.3.3",
     "zod": "^3.22.4"
   },
-  "packageManager": "pnpm@8.7.4",
   "engines": {
     "npm": "use pnpm please!",
     "yarn": "use pnpm please!",
