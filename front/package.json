@@ -20,7 +20,7 @@
     "@trpc/client": "^10.45.0",
     "@trpc/next": "^10.45.0",
     "@trpc/react-query": "^10.45.0",
-    "@trpc/server": "^10.45.0",
+    "@trpc/server": "^10.45.1",
     "@types/aws-lambda": "^8.10.133",
     "@types/node": "^20.11.16",
     "@types/react": "^18.2.53",
