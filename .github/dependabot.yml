@@ -20,6 +20,13 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    ignore:
+      - dependency-name: "@tanstack/react-query"
+        versions: ["5.x"]
+    groups:
+      npm:
+        patterns:
+          - '＊'
 
   - package-ecosystem: npm
     directory: '/cdk/'
@@ -46,6 +53,9 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    ignore:
+      - dependency-name: "@tanstack/react-query"
+        versions: ["5.x"]
     groups:
       nextjs:
         patterns:
